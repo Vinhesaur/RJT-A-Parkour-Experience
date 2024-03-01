@@ -15,7 +15,7 @@ V:/RJT-A-Parkour-Experience/RJT-A-Parkour-Experience/RJT APE
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-57154
+65062
 Successfully changed project path to: V:/RJT-A-Parkour-Experience/RJT-A-Parkour-Experience/RJT APE
 V:/RJT-A-Parkour-Experience/RJT-A-Parkour-Experience/RJT APE
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,11 +47,11 @@ V:/RJT-A-Parkour-Experience/RJT-A-Parkour-Experience/RJT APE
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [27172] Host "[IP] 172.18.10.51 [Port] 0 [Flags] 2 [Guid] 2352024576 [EditorId] 2352024576 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-C8QNRHO) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [12284] Host "[IP] 172.18.10.51 [Port] 0 [Flags] 2 [Guid] 2591243504 [EditorId] 2591243504 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-C8QNRHO) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [27172] Host "[IP] 172.18.10.51 [Port] 0 [Flags] 2 [Guid] 2352024576 [EditorId] 2352024576 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-C8QNRHO) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [12284] Host "[IP] 172.18.10.51 [Port] 0 [Flags] 2 [Guid] 2591243504 [EditorId] 2591243504 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-C8QNRHO) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 129.50 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 109.06 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.16f1 (4016570cf34f)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/Resources/UnitySubsystems
@@ -67,45 +67,188 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56272
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56904
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.010007 seconds.
+Registered in 0.009557 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 119.69 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 107.13 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.670 seconds
+- Completed reload, in  0.595 seconds
 Domain Reload Profiling:
-	ReloadAssembly (671ms)
-		BeginReloadAssembly (89ms)
+	ReloadAssembly (595ms)
+		BeginReloadAssembly (67ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (469ms)
-			LoadAssemblies (85ms)
+		EndReloadAssembly (420ms)
+			LoadAssemblies (65ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (97ms)
+			SetupTypeCache (89ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (23ms)
-			SetupLoadedEditorAssemblies (301ms)
+			RebuildScriptCaches (22ms)
+			SetupLoadedEditorAssemblies (265ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (9ms)
+				InitializePlatformSupportModulesInManaged (8ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (120ms)
+				RefreshPlugins (107ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (119ms)
-				ProcessInitializeOnLoadMethodAttributes (51ms)
+				ProcessInitializeOnLoadAttributes (112ms)
+				ProcessInitializeOnLoadMethodAttributes (36ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.008566 seconds.
+Registered in 0.007464 seconds.
 Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image V:\RJT-A-Parkour-Experience\RJT-A-Parkour-Experience\RJT APE\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image V:\RJT-A-Parkour-Experience\RJT-A-Parkour-Experience\RJT APE\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 121.94 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.302 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1303ms)
+		BeginReloadAssembly (106ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (20ms)
+		EndReloadAssembly (1090ms)
+			LoadAssemblies (98ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (286ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (57ms)
+			SetupLoadedEditorAssemblies (624ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (122ms)
+				BeforeProcessingInitializeOnLoad (122ms)
+				ProcessInitializeOnLoadAttributes (299ms)
+				ProcessInitializeOnLoadMethodAttributes (67ms)
+				AfterProcessingInitializeOnLoad (9ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 1.08 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5726 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 61 unused Assets / (1.2 MB). Loaded Objects now: 6166.
+Memory consumption went from 227.0 MB to 225.9 MB.
+Total: 4.209800 ms (FindLiveObjects: 0.484900 ms CreateObjectMapping: 0.144100 ms MarkObjects: 2.915600 ms  DeleteObjects: 0.664300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 3173.344279 seconds.
+  path: Assets/Old Files/Prefabs/LevelProps/Climbable_Object_2.prefab
+  artifactKey: Guid(7fc98a960eb10f044bc75c12862fc15f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Old Files/Prefabs/LevelProps/Climbable_Object_2.prefab using Guid(7fc98a960eb10f044bc75c12862fc15f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b3fefefc7083ca3dba5e75d5c43a53f') in 0.250746 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Old Files/Prefabs/LevelProps/Ground.prefab
+  artifactKey: Guid(8d62a66ddf1c7a8478446adc83505079) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Old Files/Prefabs/LevelProps/Ground.prefab using Guid(8d62a66ddf1c7a8478446adc83505079) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4828a9f17787592c8e19007acfbddec4') in 0.020117 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 146.802572 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/loading.png
+  artifactKey: Guid(c6b1bcaa3f4767141acd747384dbb276) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/loading.png using Guid(c6b1bcaa3f4767141acd747384dbb276) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81569990bfaffd6cdfaa72d4e30a6b9f') in 0.048175 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Vinh/Models/Storyboards/Splash Art.psd
+  artifactKey: Guid(392eccfd0f6e2a143b2ccc3925fbc76c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Vinh/Models/Storyboards/Splash Art.psd using Guid(392eccfd0f6e2a143b2ccc3925fbc76c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '150c1fb9cfc5c9a0995604a1455bde82') in 0.140414 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/step3@2x.png
+  artifactKey: Guid(36e6970b84831434a9eac79abd03700b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/step3@2x.png using Guid(36e6970b84831434a9eac79abd03700b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed0eb99bb724545c0dbb9618d0807713') in 0.026206 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Vinh/Models/Storyboards/Main Menu.psd
+  artifactKey: Guid(826c05841f500de4396b983e3322e279) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Vinh/Models/Storyboards/Main Menu.psd using Guid(826c05841f500de4396b983e3322e279) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93b8535909044d120927ea524de6018c') in 0.118257 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/step2.png
+  artifactKey: Guid(cd0b17b71a5c498428ee91dee8a78a88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/step2.png using Guid(cd0b17b71a5c498428ee91dee8a78a88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b13fe9e8230fddaa3a12281b5e2b967') in 0.019364 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/ok.png
+  artifactKey: Guid(3238dca1e9ea9fb4aa64b28298ba6dbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/ok.png using Guid(3238dca1e9ea9fb4aa64b28298ba6dbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1a15f0bddde4037bf48c83b5ca630e6') in 0.016747 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/loading@2x.png
+  artifactKey: Guid(5dbc069eb79bd4d43840847264d6d956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/loading@2x.png using Guid(5dbc069eb79bd4d43840847264d6d956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2123318e5cee1dfd0600dad24daa7f91') in 0.020214 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Vinh/Models/Storyboards/Storylines.psd
+  artifactKey: Guid(a903ebe11014cbc4eb48031f7c0c1459) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Vinh/Models/Storyboards/Storylines.psd using Guid(a903ebe11014cbc4eb48031f7c0c1459) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '005c25d463dd905b3c78cdf09af51813') in 0.090130 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Vinh/Models/Storyboards/Social copy (Selecting a Friend).psd
+  artifactKey: Guid(b07d9186a060d3649a00e848095b933a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Vinh/Models/Storyboards/Social copy (Selecting a Friend).psd using Guid(b07d9186a060d3649a00e848095b933a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f325bbd2fbcabb54a81bf65a2bee0e88') in 0.091463 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Vinh/Models/Storyboards/Social.psd
+  artifactKey: Guid(dde0ccbf9eaaee44ba7546993777398d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Vinh/Models/Storyboards/Social.psd using Guid(dde0ccbf9eaaee44ba7546993777398d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '231a379971b4a655052202de866ff868') in 0.086139 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/refresh.png
+  artifactKey: Guid(6f6a4c6bd7cdc654d9d91f7de72afcb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/refresh.png using Guid(6f6a4c6bd7cdc654d9d91f7de72afcb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa985aa06dc1a374a72c6a93c994f3d1') in 0.018763 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/stepok@2x.png
+  artifactKey: Guid(be340a165cb9c8d4cb50f1deeb51d4ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/stepok@2x.png using Guid(be340a165cb9c8d4cb50f1deeb51d4ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa1074d3e20e30765e953413e16a97f7') in 0.019755 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

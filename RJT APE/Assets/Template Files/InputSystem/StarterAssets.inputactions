@@ -148,6 +148,15 @@
                     "processors": "",
                     "interactions": "Press",
                     "initialStateCheck": false
+                },
+                {
+                    "name": "OPEN UI",
+                    "type": "Button",
+                    "id": "866574b8-4bc0-46c7-ab75-874f2da5edfd",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "Press",
+                    "initialStateCheck": false
                 }
             ],
             "bindings": [
@@ -320,9 +329,9 @@
                     "name": "",
                     "id": "f7027450-fe2d-4dcb-b6b4-f7657b0446cb",
                     "path": "<Gamepad>/rightTrigger",
-                    "interactions": "Hold",
+                    "interactions": "Press",
                     "processors": "",
-                    "groups": "",
+                    "groups": "Gamepad",
                     "action": "R2",
                     "isComposite": false,
                     "isPartOfComposite": false
@@ -456,6 +465,17 @@
                     "processors": "",
                     "groups": "Gamepad",
                     "action": "Sprint",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "08ceafdc-f226-45b5-8699-aa70095b24b1",
+                    "path": "<Keyboard>/z",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "KeyboardMouse",
+                    "action": "OPEN UI",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }
