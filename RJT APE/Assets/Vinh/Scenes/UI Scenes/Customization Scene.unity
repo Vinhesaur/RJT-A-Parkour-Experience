@@ -348,7 +348,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1027167383
 RectTransform:
   m_ObjectHideFlags: 0
@@ -831,6 +831,46 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 2143102337}
+    - target: {fileID: 1404120836420614881, guid: 61cde5dbcd1f8344f8d4ca3641e2575e,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.39609632
+      objectReference: {fileID: 0}
+    - target: {fileID: 1404120836420614881, guid: 61cde5dbcd1f8344f8d4ca3641e2575e,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.0078933
+      objectReference: {fileID: 0}
+    - target: {fileID: 1404120836420614881, guid: 61cde5dbcd1f8344f8d4ca3641e2575e,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -183.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1404120836420614881, guid: 61cde5dbcd1f8344f8d4ca3641e2575e,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 21
+      objectReference: {fileID: 0}
+    - target: {fileID: 1404120836420614883, guid: 61cde5dbcd1f8344f8d4ca3641e2575e,
+        type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1404120836420614883, guid: 61cde5dbcd1f8344f8d4ca3641e2575e,
+        type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1404120836420614883, guid: 61cde5dbcd1f8344f8d4ca3641e2575e,
+        type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1404120836420614886, guid: 61cde5dbcd1f8344f8d4ca3641e2575e,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1404120836620675451, guid: 61cde5dbcd1f8344f8d4ca3641e2575e,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -845,6 +885,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1404120837433116007, guid: 61cde5dbcd1f8344f8d4ca3641e2575e,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -89
       objectReference: {fileID: 0}
     - target: {fileID: 1404120837657936199, guid: 61cde5dbcd1f8344f8d4ca3641e2575e,
         type: 3}
