@@ -157,6 +157,15 @@
                     "processors": "",
                     "interactions": "Press",
                     "initialStateCheck": false
+                },
+                {
+                    "name": "climbaction",
+                    "type": "Button",
+                    "id": "33b1b740-778d-43ac-b7c8-b4d7a171c69a",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
                 }
             ],
             "bindings": [
@@ -394,7 +403,7 @@
                 {
                     "name": "",
                     "id": "504309d4-ff31-4dd1-aba5-180f61831f88",
-                    "path": "<Gamepad>/leftShoulder",
+                    "path": "<Gamepad>/rightStickPress",
                     "interactions": "Press",
                     "processors": "",
                     "groups": "",
@@ -438,7 +447,7 @@
                 {
                     "name": "",
                     "id": "9f973413-5e27-4239-acee-38c4a63feeba",
-                    "path": "<Gamepad>/buttonSouth",
+                    "path": "<Gamepad>/rightStick/up",
                     "interactions": "",
                     "processors": "",
                     "groups": "Gamepad",
@@ -460,7 +469,7 @@
                 {
                     "name": "",
                     "id": "c8fcd86e-dcfd-4f88-8e93-b638cdbf3320",
-                    "path": "<Gamepad>/leftTrigger",
+                    "path": "<Gamepad>/rightTrigger",
                     "interactions": "",
                     "processors": "",
                     "groups": "Gamepad",
@@ -476,6 +485,17 @@
                     "processors": "",
                     "groups": "KeyboardMouse",
                     "action": "OPEN UI",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "993f6f66-874a-45c2-baf4-e972b780e71d",
+                    "path": "<Gamepad>/buttonSouth",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "climbaction",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }
