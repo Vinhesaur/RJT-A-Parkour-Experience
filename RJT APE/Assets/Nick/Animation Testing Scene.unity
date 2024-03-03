@@ -208,7 +208,7 @@ PrefabInstance:
     - target: {fileID: 8556043143066499024, guid: aba1382a599b9de4c9427a451856870a,
         type: 3}
       propertyPath: m_Layer
-      value: 0
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 7209197286774564142, guid: aba1382a599b9de4c9427a451856870a, type: 3}
@@ -320,6 +320,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Vault Wall
       objectReference: {fileID: 0}
+    - target: {fileID: 8556043143066499024, guid: aba1382a599b9de4c9427a451856870a,
+        type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 7209197286774564142, guid: aba1382a599b9de4c9427a451856870a, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: aba1382a599b9de4c9427a451856870a, type: 3}
@@ -332,7 +337,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 140252240}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Stairs
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -618,7 +623,7 @@ PrefabInstance:
     - target: {fileID: 8944336655422409503, guid: f6d148d888ffbf54b9afe9936dfaec1f,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 6.375
+      value: 1.375
       objectReference: {fileID: 0}
     - target: {fileID: 8944336655422409503, guid: f6d148d888ffbf54b9afe9936dfaec1f,
         type: 3}
@@ -744,6 +749,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Vault Wall (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 8556043143066499024, guid: aba1382a599b9de4c9427a451856870a,
+        type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 7209197286774564142, guid: aba1382a599b9de4c9427a451856870a, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: aba1382a599b9de4c9427a451856870a, type: 3}
@@ -857,7 +867,7 @@ PrefabInstance:
     - target: {fileID: 8556043143066499024, guid: aba1382a599b9de4c9427a451856870a,
         type: 3}
       propertyPath: m_Layer
-      value: 0
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 7209197286774564142, guid: aba1382a599b9de4c9427a451856870a, type: 3}
@@ -1008,6 +1018,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Vault Wall (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 8556043143066499024, guid: aba1382a599b9de4c9427a451856870a,
+        type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 7209197286774564142, guid: aba1382a599b9de4c9427a451856870a, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: aba1382a599b9de4c9427a451856870a, type: 3}
@@ -1048,7 +1063,7 @@ GameObject:
   - component: {fileID: 647886053}
   - component: {fileID: 647886052}
   - component: {fileID: 647886051}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Ground
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1323,7 +1338,7 @@ PrefabInstance:
     - target: {fileID: 8556043143066499024, guid: aba1382a599b9de4c9427a451856870a,
         type: 3}
       propertyPath: m_Layer
-      value: 0
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 7209197286774564142, guid: aba1382a599b9de4c9427a451856870a, type: 3}
@@ -1764,6 +1779,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Vault Wall (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 8556043143066499024, guid: aba1382a599b9de4c9427a451856870a,
+        type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 7209197286774564142, guid: aba1382a599b9de4c9427a451856870a, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: aba1382a599b9de4c9427a451856870a, type: 3}
@@ -1817,7 +1837,7 @@ PrefabInstance:
     - target: {fileID: 2070925441746177912, guid: a1a802ecaf6775746bb2a929fb554ad8,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 6.375
+      value: 1.375
       objectReference: {fileID: 0}
     - target: {fileID: 2070925441746177912, guid: a1a802ecaf6775746bb2a929fb554ad8,
         type: 3}
@@ -1875,7 +1895,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1433666425}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Vault Walls
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1962,6 +1982,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -3480016284503186726, guid: ae0a3b34e89a39c4da3d130d18b3e631,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.033085585
+      objectReference: {fileID: 0}
+    - target: {fileID: -3480016284503186726, guid: ae0a3b34e89a39c4da3d130d18b3e631,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.037347022
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: ae0a3b34e89a39c4da3d130d18b3e631,
         type: 3}
@@ -2095,7 +2125,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1745442951}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Vault Walls 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2206,7 +2236,7 @@ PrefabInstance:
     - target: {fileID: 8556043143066499024, guid: aba1382a599b9de4c9427a451856870a,
         type: 3}
       propertyPath: m_Layer
-      value: 0
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 7209197286774564142, guid: aba1382a599b9de4c9427a451856870a, type: 3}
@@ -3159,7 +3189,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4416926082489081201}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 5, z: -20}
+  m_LocalPosition: {x: 0, y: 0, z: -20}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -3397,7 +3427,7 @@ MonoBehaviour:
   JumpHeight: 1.2
   Gravity: -15
   JumpTimeout: 0.3
-  FallTimeout: 0.1
+  FallTimeout: 0.2
   Grounded: 1
   GroundedOffset: -0.14
   GroundedRadius: 0.28
