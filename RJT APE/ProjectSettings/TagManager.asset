@@ -10,11 +10,11 @@ TagManager:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - VaultWall
+  - Obstacle
   - Water
   - UI
   - Push
-  - ClimbWall
+  - 
   - Character
   - Ground
   - 
