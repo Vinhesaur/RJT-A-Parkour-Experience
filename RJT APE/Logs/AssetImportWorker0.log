@@ -15,7 +15,7 @@ C:/Users/nicho/iCloudDrive/Spring 2024/MI 846/RJT-A-Parkour-Experience/RJT APE
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-55236
+64208
 Successfully changed project path to: C:/Users/nicho/iCloudDrive/Spring 2024/MI 846/RJT-A-Parkour-Experience/RJT APE
 C:/Users/nicho/iCloudDrive/Spring 2024/MI 846/RJT-A-Parkour-Experience/RJT APE
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,11 +47,11 @@ C:/Users/nicho/iCloudDrive/Spring 2024/MI 846/RJT-A-Parkour-Experience/RJT APE
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [60256] Host "[IP] 192.168.0.35 [Port] 0 [Flags] 2 [Guid] 3643242281 [EditorId] 3643242281 [Version] 1048832 [Id] WindowsEditor(7,NGxKD) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [48712] Host "[IP] 192.168.0.35 [Port] 0 [Flags] 2 [Guid] 3973216237 [EditorId] 3973216237 [Version] 1048832 [Id] WindowsEditor(7,NGxKD) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [60256] Host "[IP] 192.168.0.35 [Port] 0 [Flags] 2 [Guid] 3643242281 [EditorId] 3643242281 [Version] 1048832 [Id] WindowsEditor(7,NGxKD) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [48712] Host "[IP] 192.168.0.35 [Port] 0 [Flags] 2 [Guid] 3973216237 [EditorId] 3973216237 [Version] 1048832 [Id] WindowsEditor(7,NGxKD) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 90.57 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 93.95 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.16f1 (4016570cf34f)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/Resources/UnitySubsystems
@@ -67,76 +67,76 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56244
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56996
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.004113 seconds.
+Registered in 0.003655 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 83.43 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 90.40 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.474 seconds
+- Completed reload, in  0.510 seconds
 Domain Reload Profiling:
-	ReloadAssembly (475ms)
-		BeginReloadAssembly (49ms)
+	ReloadAssembly (510ms)
+		BeginReloadAssembly (53ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (0ms)
-		EndReloadAssembly (350ms)
-			LoadAssemblies (47ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (382ms)
+			LoadAssemblies (51ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (74ms)
+			SetupTypeCache (85ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (17ms)
-			SetupLoadedEditorAssemblies (212ms)
+			RebuildScriptCaches (19ms)
+			SetupLoadedEditorAssemblies (238ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
+				InitializePlatformSupportModulesInManaged (6ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (84ms)
+				RefreshPlugins (90ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (89ms)
-				ProcessInitializeOnLoadMethodAttributes (34ms)
+				ProcessInitializeOnLoadAttributes (104ms)
+				ProcessInitializeOnLoadMethodAttributes (37ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.010358 seconds.
+Registered in 0.012159 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\nicho\iCloudDrive\Spring 2024\MI 846\RJT-A-Parkour-Experience\RJT APE\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\nicho\iCloudDrive\Spring 2024\MI 846\RJT-A-Parkour-Experience\RJT APE\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 91.85 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 89.32 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.129 seconds
+- Completed reload, in  1.235 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1130ms)
-		BeginReloadAssembly (78ms)
+	ReloadAssembly (1235ms)
+		BeginReloadAssembly (96ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
+			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (17ms)
-		EndReloadAssembly (970ms)
-			LoadAssemblies (80ms)
+			CreateAndSetChildDomain (21ms)
+		EndReloadAssembly (1043ms)
+			LoadAssemblies (93ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (230ms)
+			SetupTypeCache (256ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (53ms)
-			SetupLoadedEditorAssemblies (570ms)
+			RebuildScriptCaches (51ms)
+			SetupLoadedEditorAssemblies (616ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (3ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (92ms)
-				BeforeProcessingInitializeOnLoad (79ms)
-				ProcessInitializeOnLoadAttributes (343ms)
+				RefreshPlugins (89ms)
+				BeforeProcessingInitializeOnLoad (89ms)
+				ProcessInitializeOnLoadAttributes (382ms)
 				ProcessInitializeOnLoadMethodAttributes (46ms)
-				AfterProcessingInitializeOnLoad (7ms)
+				AfterProcessingInitializeOnLoad (6ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (5ms)
@@ -155,12 +155,12 @@ Failed to load shader (instanceID 562, GUID 2df96b66b5510f94b98df2ac6f926ef4)
 Failed to load shader (instanceID 544, GUID e4e5d566a8aa9914c906555a6857fcb9)
 Failed to load shader (instanceID 498, GUID 95e15a77195eb574ab82aaac18b1c796)
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
-Refreshing native plugins compatible for Editor in 1.18 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.88 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 5637 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 51 unused Assets / (0.8 MB). Loaded Objects now: 6088.
-Memory consumption went from 221.4 MB to 220.6 MB.
-Total: 4.257100 ms (FindLiveObjects: 0.504300 ms CreateObjectMapping: 0.283900 ms MarkObjects: 3.157400 ms  DeleteObjects: 0.310400 ms)
+Memory consumption went from 221.3 MB to 220.5 MB.
+Total: 4.527800 ms (FindLiveObjects: 0.509400 ms CreateObjectMapping: 0.185500 ms MarkObjects: 3.456400 ms  DeleteObjects: 0.375300 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -175,35 +175,23 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 853678.907756 seconds.
-  path: Assets/Nick/Characters
-  artifactKey: Guid(ce50d9a6fe1239b4cb4c085d7fb5d4bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Nick/Characters using Guid(ce50d9a6fe1239b4cb4c085d7fb5d4bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54d6db02647902291a742288d9d9d2c5') in 0.010991 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 9.282657 seconds.
-  path: Assets/Nick/Characters/Y Bot.fbx
-  artifactKey: Guid(afbb1dfb61adc674cac8e24ac278c27c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Nick/Characters/Y Bot.fbx using Guid(afbb1dfb61adc674cac8e24ac278c27c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader 'Universal Render Pipeline/Autodesk Interactive/AutodeskInteractive': fallback shader 'Hidden/Shader Graph/FallbackError' not found
+  Time since last request: 889201.567018 seconds.
+  path: Assets/Nick/Animations/Jog Animation.fbx
+  artifactKey: Guid(a27cc6530a054854d8f03e1dcaf00f61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nick/Animations/Jog Animation.fbx using Guid(a27cc6530a054854d8f03e1dcaf00f61) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader 'Universal Render Pipeline/Autodesk Interactive/AutodeskInteractive': fallback shader 'Hidden/Shader Graph/FallbackError' not found
 Shader 'Universal Render Pipeline/Autodesk Interactive/AutodeskInteractiveTransparent': fallback shader 'Hidden/Shader Graph/FallbackError' not found
 Shader 'Universal Render Pipeline/Autodesk Interactive/AutodeskInteractiveMasked': fallback shader 'Hidden/Shader Graph/FallbackError' not found
 Shader 'Shader Graphs/Decal': fallback shader 'Hidden/Shader Graph/FallbackError' not found
- -> (artifact id: 'd6817881b9a6e608861cb39385c9d053') in 0.264334 seconds 
+ -> (artifact id: 'bd1dab552126dfc41fc50bcacd2b4b97') in 0.313555 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 5.755512 seconds.
-  path: Assets/Nick/Characters/Y Bot.fbx
-  artifactKey: Guid(afbb1dfb61adc674cac8e24ac278c27c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Nick/Characters/Y Bot.fbx using Guid(afbb1dfb61adc674cac8e24ac278c27c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33af2bea52faacba07f4b08e6f342ac6') in 0.200667 seconds 
+  Time since last request: 55.531846 seconds.
+  path: Assets/Nick/Animations/Jog Animation.fbx
+  artifactKey: Guid(a27cc6530a054854d8f03e1dcaf00f61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nick/Animations/Jog Animation.fbx using Guid(a27cc6530a054854d8f03e1dcaf00f61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45926d3db47d3e66c39477117e1ebea2') in 0.083035 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 7.525070 seconds.
-  path: Assets/Nick/Characters/Y Bot.fbx
-  artifactKey: Guid(afbb1dfb61adc674cac8e24ac278c27c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Nick/Characters/Y Bot.fbx using Guid(afbb1dfb61adc674cac8e24ac278c27c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fc0f21eb389811b19a1e0509a8e2ecc') in 0.145656 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 49.364996 seconds.
-  path: Assets/Nick/Animations/Animation Cycles.fbm
-  artifactKey: Guid(9eeb6f1f8d51a9942a2584a6807624e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Nick/Animations/Animation Cycles.fbm using Guid(9eeb6f1f8d51a9942a2584a6807624e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cac90fc25604ae7279c796c17dec802c') in 0.001248 seconds 
+  Time since last request: 15.015502 seconds.
+  path: Assets/Nick/Animations/Jog Animation.fbx
+  artifactKey: Guid(a27cc6530a054854d8f03e1dcaf00f61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nick/Animations/Jog Animation.fbx using Guid(a27cc6530a054854d8f03e1dcaf00f61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13ffa66bc15a4a8c2477495cde782e9d') in 0.072349 seconds 
