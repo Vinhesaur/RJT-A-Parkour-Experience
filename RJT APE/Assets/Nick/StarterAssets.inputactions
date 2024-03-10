@@ -204,7 +204,7 @@
                     "path": "<Gamepad>/start",
                     "interactions": "Press",
                     "processors": "",
-                    "groups": "",
+                    "groups": "Gamepad",
                     "action": "Pause",
                     "isComposite": false,
                     "isPartOfComposite": false
@@ -215,7 +215,7 @@
                     "path": "<Gamepad>/leftShoulder",
                     "interactions": "Press",
                     "processors": "",
-                    "groups": "",
+                    "groups": "Gamepad",
                     "action": "Ground Trick Modifier",
                     "isComposite": false,
                     "isPartOfComposite": false
@@ -303,7 +303,7 @@
                     "path": "<Gamepad>/leftTrigger",
                     "interactions": "Press",
                     "processors": "",
-                    "groups": "",
+                    "groups": "Gamepad",
                     "action": "Air Trick Modifier",
                     "isComposite": false,
                     "isPartOfComposite": false
@@ -314,7 +314,7 @@
                     "path": "<Gamepad>/buttonSouth",
                     "interactions": "",
                     "processors": "",
-                    "groups": "",
+                    "groups": "Gamepad",
                     "action": "Climb",
                     "isComposite": false,
                     "isPartOfComposite": false

@@ -11,8 +11,9 @@ GameObject:
   - component: {fileID: 2421068034998124614}
   - component: {fileID: 8385795580197287501}
   - component: {fileID: 1703900435300980009}
-  - component: {fileID: 7209197286774564142}
-  m_Layer: 7
+  - component: {fileID: 427869879}
+  - component: {fileID: 8538979034268975824}
+  m_Layer: 3
   m_Name: Leapable_Object_1
   m_TagString: Leapable1
   m_Icon: {fileID: 0}
@@ -26,13 +27,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8556043143066499024}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -3.3933525, y: -1.1921694, z: -7.786227}
-  m_LocalScale: {x: 0.2629099, y: 0.9587152, z: 6.3052087}
+  m_LocalScale: {x: 20, y: 1, z: 0.5}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &8385795580197287501
 MeshFilter:
@@ -84,24 +85,29 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &7209197286774564142
+--- !u!65 &427869879
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8556043143066499024}
-  m_Material: {fileID: 13400000, guid: 85efec34a82f34e449faa92f9113d2c6, type: 2}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
+  m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 3
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!65 &8538979034268975824
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8556043143066499024}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
