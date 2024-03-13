@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: Jump
   m_EditorClassIdentifier: 
   animationName: Jump
-  minimumHeight: 0.1
-  maximumHeight: 0.5
+  minimumHeight: 0
+  maximumHeight: 0.2
   lookAtObstacle: 1
   allowTargetMatching: 1
   compareBodyPart: 2

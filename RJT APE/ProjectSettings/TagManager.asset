@@ -5,7 +5,11 @@ TagManager:
   serializedVersion: 2
   tags:
   - CinemachineTarget
+  - Barrier
   - Leapable1
+  - Barrier2
+  - Barrier3
+  - Barrier4
   layers:
   - Default
   - TransparentFX
@@ -17,7 +21,7 @@ TagManager:
   - Climb
   - Character
   - Ground
-  - 
+  - Climb
   - 
   - 
   - 
