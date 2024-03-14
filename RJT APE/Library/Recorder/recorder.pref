@@ -40,7 +40,7 @@ MonoBehaviour:
   captureEveryNthFrame: 1
   fileNameGenerator:
     m_Path:
-      m_Root: 0
+      m_Root: 5
       m_Leaf: Recordings
       m_ForceAssetFolder: 0
       m_AbsolutePath: C:/Users/nicho/iCloudDrive/Spring 2024/MI 846
