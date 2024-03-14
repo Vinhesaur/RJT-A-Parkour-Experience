@@ -25,7 +25,10 @@ public class PlayerScript : MonoBehaviour
     public Vector3 surfaceCheckOffset;
     public LayerMask surfaceLayer;
     bool onSurface;
-    public bool playerOnLedge { get; set; }
+
+    public bool playerOnLedge {get; set;}
+    public bool playerHanging{get; set;}
+
     public LedgeInfo LedgeInfo {get; set;}
     [SerializeField]float fallingSpeed;
     [SerializeField] Vector3 moveDir;
@@ -34,12 +37,16 @@ public class PlayerScript : MonoBehaviour
 
     private void Update()
     {
-        PlayerMovement();
-
         if (!playerControl)
         {
             return;
         }
+
+        if(playerHanging)
+        {
+            return;
+        }
+        
         velocity = Vector3.zero;
 
         if (onSurface)
@@ -67,6 +74,7 @@ public class PlayerScript : MonoBehaviour
 
         velocity.y = fallingSpeed;
 
+        PlayerMovement();
         SurfaceCheck();
         animator.SetBool("onSurface", onSurface);
         Debug.Log("Player on Surface" + onSurface);
@@ -118,12 +126,12 @@ public class PlayerScript : MonoBehaviour
         Gizmos.DrawSphere(transform.TransformPoint(surfaceCheckOffset), surfaceCheckRadius);
     }
 
-    public IEnumerator PerformAction(string AnimationName, CompareTargetParameter ctp, Quaternion RequiredRotation,
+    public IEnumerator PerformAction(string AnimationName, CompareTargetParameter ctp = null, Quaternion RequiredRotation = new Quaternion(),
      bool LookAtObstacle = false, float ParkourActionDelay = 0f)
     {
         playerInAction = true;
 
-        animator.CrossFade(AnimationName, 0.2f);
+        animator.CrossFadeInFixedTime(AnimationName, 0.2f);
         yield return null;
 
         var animationState = animator.GetNextAnimatorStateInfo(0);
@@ -131,14 +139,17 @@ public class PlayerScript : MonoBehaviour
         {
             Debug.Log("Animation Name Incorrect");
         }
+        float rotateStartTime = (ctp != null) ? ctp.startTime : 0f;
         float timerCounter = 0f;
 
         while(timerCounter <= animationState.length)
         {
             timerCounter += Time.deltaTime;
 
+            float normalizedTimerCounter = timerCounter / animationState.length;
+
             //make player look towards obstacle
-            if(LookAtObstacle)
+            if(LookAtObstacle && normalizedTimerCounter > rotateStartTime)
             {
                 transform.rotation = Quaternion.RotateTowards(transform.rotation, RequiredRotation, rotSpeed * Time.deltaTime);
             }
@@ -176,6 +187,16 @@ public class PlayerScript : MonoBehaviour
             animator.SetFloat("movementValue", 0f);
             requiredRotation = transform.rotation;
         }
+    }
+
+    public void EnableCC(bool enabled)
+    {
+        cC.enabled = enabled;
+    }
+
+    public void ResetRequiredRotation()
+    {
+        requiredRotation = transform.rotation;
     }
 
     public bool HasPlayerControl

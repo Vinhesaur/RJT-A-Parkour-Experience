@@ -15,7 +15,7 @@ public class ParkourControllerScript : MonoBehaviour
 
     void Update()
     {
-        if(Input.GetButton("Jump") && !playerScript.playerInAction) 
+        if(Input.GetButton("Jump") && !playerScript.playerInAction && !playerScript.playerHanging) 
         {
             var hitData = environmentChecker.CheckObstacle();
 
