@@ -369,7 +369,6 @@
 "Assets/Wwise/MonoBehaviour/Editor/AkSwitchInspector.cs"
 "Assets/Wwise/MonoBehaviour/Editor/AkUnityEventHandlerInspector.cs"
 "Assets/Wwise/MonoBehaviour/Editor/AkWwiseTriggerInspector.cs"
-"Assets/Wwise/MonoBehaviour/Editor/EditorPlatformHelpers/Mac/AkMacPluginActivator.cs"
 "Assets/Wwise/MonoBehaviour/Editor/EditorPlatformHelpers/Windows/AkWindowsPluginActivator.cs"
 "Assets/Wwise/MonoBehaviour/Editor/WwiseSetupWizard/AkBuildPreprocessor.cs"
 "Assets/Wwise/MonoBehaviour/Editor/WwiseSetupWizard/AkUnitySettingsParser.cs"

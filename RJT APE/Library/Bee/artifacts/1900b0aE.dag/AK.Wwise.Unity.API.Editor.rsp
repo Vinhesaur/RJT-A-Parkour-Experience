@@ -353,7 +353,6 @@
 "Assets/Wwise/API/Editor/WwiseMenu/Common/AkUnityBuilderBase.cs"
 "Assets/Wwise/API/Editor/WwiseMenu/Common/AkUnityPluginInstallerBase.cs"
 "Assets/Wwise/API/Editor/WwiseMenu/Common/AkWwiseIdConverter.cs"
-"Assets/Wwise/API/Editor/WwiseMenu/Mac/AkWwiseMenu_Mac.cs"
 "Assets/Wwise/API/Editor/WwiseMenu/Windows/AkWwiseMenu_Windows.cs"
 "Assets/Wwise/API/Editor/WwiseTypes/AcousticTextureDrawer.cs"
 "Assets/Wwise/API/Editor/WwiseTypes/AuxBusDrawer.cs"
