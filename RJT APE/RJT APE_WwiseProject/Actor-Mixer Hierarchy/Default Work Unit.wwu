@@ -1,6 +1,1359 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{33CE4FE8-490B-4CAB-B6F2-5568092B0D7D}" SchemaVersion="119">
 	<AudioObjects>
-		<WorkUnit Name="Default Work Unit" ID="{33CE4FE8-490B-4CAB-B6F2-5568092B0D7D}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{33CE4FE8-490B-4CAB-B6F2-5568092B0D7D}" PersistMode="Standalone">
+			<ChildrenList>
+				<Folder Name="WwiseProject Lesson 7" ID="{993F46D5-C584-40C2-BBDF-42DD5F9D6616}" ShortID="961870560">
+					<ChildrenList>
+						<Folder Name="Originals" ID="{339D9723-E52C-42B3-8828-1B49EE8BFCE2}" ShortID="609530129">
+							<ChildrenList>
+								<Folder Name="SFX" ID="{AB6376D7-DB3D-4DE3-9D12-410C4D74F922}" ShortID="576760220">
+									<ChildrenList>
+										<Folder Name="Footsteps" ID="{CD1E9A8A-4890-48D3-8FB4-7F5B2AA868A4}" ShortID="1001944790">
+											<ChildrenList>
+												<Folder Name="Concrete" ID="{7073B41E-4A84-4969-96F7-97EBCB258BE6}" ShortID="78948818">
+													<ChildrenList>
+														<Sound Name="FS_Concrete_01" ID="{7C347B39-0C13-4C93-91DA-45F26A6BDF7E}" ShortID="490104139">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3BD9D82A-3DDD-4235-A0F7-8975661CAF78}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0AE93B8B-4E4D-405D-9432-1CCE75EE2F3F}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="FS_Concrete_01" ID="{F59F227C-0BC6-4B70-80F7-5E055F06C2A7}">
+																	<Language>SFX</Language>
+																	<AudioFile>WwiseProject Lesson 7\Originals\SFX\Footsteps\Concrete\FS_Concrete_01.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="839148642"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="FS_Concrete_01" ID="{F59F227C-0BC6-4B70-80F7-5E055F06C2A7}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="FS_Concrete_02" ID="{5E76A2EA-4E8F-4597-B0C7-0EA098BBD0D3}" ShortID="762846768">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3BD9D82A-3DDD-4235-A0F7-8975661CAF78}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0AE93B8B-4E4D-405D-9432-1CCE75EE2F3F}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="FS_Concrete_02" ID="{6DE064A0-4E62-47F8-9E5E-F6595DA01079}">
+																	<Language>SFX</Language>
+																	<AudioFile>WwiseProject Lesson 7\Originals\SFX\Footsteps\Concrete\FS_Concrete_02.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="484450217"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="FS_Concrete_02" ID="{6DE064A0-4E62-47F8-9E5E-F6595DA01079}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="FS_Concrete_03" ID="{8DC94027-8A05-4ACE-9476-04D9A666E5BA}" ShortID="431384781">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3BD9D82A-3DDD-4235-A0F7-8975661CAF78}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0AE93B8B-4E4D-405D-9432-1CCE75EE2F3F}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="FS_Concrete_03" ID="{8970CCF6-9203-4624-85C5-E36634F51016}">
+																	<Language>SFX</Language>
+																	<AudioFile>WwiseProject Lesson 7\Originals\SFX\Footsteps\Concrete\FS_Concrete_03.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="834426457"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="FS_Concrete_03" ID="{8970CCF6-9203-4624-85C5-E36634F51016}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+													</ChildrenList>
+												</Folder>
+												<Folder Name="Dirt" ID="{8747C568-DB0C-4D0B-A6C7-403550A7C4AC}" ShortID="786329657">
+													<ChildrenList>
+														<Sound Name="FS_Dirt_01" ID="{AA16BE46-A61D-49D8-8B8D-910CE96E81C0}" ShortID="584726968">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3BD9D82A-3DDD-4235-A0F7-8975661CAF78}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0AE93B8B-4E4D-405D-9432-1CCE75EE2F3F}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="FS_Dirt_01" ID="{F7482B52-634F-4310-B763-5BDA61EDA407}">
+																	<Language>SFX</Language>
+																	<AudioFile>WwiseProject Lesson 7\Originals\SFX\Footsteps\Dirt\FS_Dirt_01.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="820302838"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="FS_Dirt_01" ID="{F7482B52-634F-4310-B763-5BDA61EDA407}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="FS_Dirt_02" ID="{2987EA9C-314F-4CCA-AB7D-686EACA7EF2D}" ShortID="878343335">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3BD9D82A-3DDD-4235-A0F7-8975661CAF78}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0AE93B8B-4E4D-405D-9432-1CCE75EE2F3F}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="FS_Dirt_02" ID="{F21E26F9-4552-4BDD-89E1-9A15F9825BD6}">
+																	<Language>SFX</Language>
+																	<AudioFile>WwiseProject Lesson 7\Originals\SFX\Footsteps\Dirt\FS_Dirt_02.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="479574771"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="FS_Dirt_02" ID="{F21E26F9-4552-4BDD-89E1-9A15F9825BD6}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="FS_Dirt_03" ID="{C0996F75-944B-4726-ADA9-0C330635F56B}" ShortID="116477879">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3BD9D82A-3DDD-4235-A0F7-8975661CAF78}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0AE93B8B-4E4D-405D-9432-1CCE75EE2F3F}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="FS_Dirt_03" ID="{B3FC48C0-01C9-4D2F-9C8D-B7FD3F7B7948}">
+																	<Language>SFX</Language>
+																	<AudioFile>WwiseProject Lesson 7\Originals\SFX\Footsteps\Dirt\FS_Dirt_03.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="720792073"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="FS_Dirt_03" ID="{B3FC48C0-01C9-4D2F-9C8D-B7FD3F7B7948}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+													</ChildrenList>
+												</Folder>
+												<Folder Name="Gravel" ID="{05B59A8F-B0CF-4BFB-AD71-92B2377338FF}" ShortID="302574550">
+													<ChildrenList>
+														<Sound Name="FS_Gravel_01" ID="{9B85E5FD-59B2-4858-B631-2BCC2FCDCD7E}" ShortID="93475294">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3BD9D82A-3DDD-4235-A0F7-8975661CAF78}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0AE93B8B-4E4D-405D-9432-1CCE75EE2F3F}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="FS_Gravel_01" ID="{818F7F07-6E31-4EB4-A4D6-D19EA1AFE1C5}">
+																	<Language>SFX</Language>
+																	<AudioFile>WwiseProject Lesson 7\Originals\SFX\Footsteps\Gravel\FS_Gravel_01.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="154662507"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="FS_Gravel_01" ID="{818F7F07-6E31-4EB4-A4D6-D19EA1AFE1C5}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="FS_Gravel_02" ID="{18A4BB0A-AEA9-4FAE-A2D9-1A4EFD739C0D}" ShortID="680484994">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3BD9D82A-3DDD-4235-A0F7-8975661CAF78}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0AE93B8B-4E4D-405D-9432-1CCE75EE2F3F}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="FS_Gravel_02" ID="{D623E1F6-624A-4ED0-AC4E-C73827CDF845}">
+																	<Language>SFX</Language>
+																	<AudioFile>WwiseProject Lesson 7\Originals\SFX\Footsteps\Gravel\FS_Gravel_02.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="940746735"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="FS_Gravel_02" ID="{D623E1F6-624A-4ED0-AC4E-C73827CDF845}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="FS_Gravel_03" ID="{D666099F-7BDC-46EA-8717-983D70DEAE52}" ShortID="194526772">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3BD9D82A-3DDD-4235-A0F7-8975661CAF78}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0AE93B8B-4E4D-405D-9432-1CCE75EE2F3F}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="FS_Gravel_03" ID="{8FB9E839-A3E6-4AC4-BA2B-5BDA5E8DBD8E}">
+																	<Language>SFX</Language>
+																	<AudioFile>WwiseProject Lesson 7\Originals\SFX\Footsteps\Gravel\FS_Gravel_03.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="365109309"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="FS_Gravel_03" ID="{8FB9E839-A3E6-4AC4-BA2B-5BDA5E8DBD8E}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+													</ChildrenList>
+												</Folder>
+												<Folder Name="Tile" ID="{0F6EE5EB-900F-426A-A0FC-0C65562C842F}" ShortID="720911420">
+													<ChildrenList>
+														<Sound Name="FS_Tile_01" ID="{49C130EB-FC3F-48D2-95A1-025AEB7183C4}" ShortID="315536364">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3BD9D82A-3DDD-4235-A0F7-8975661CAF78}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0AE93B8B-4E4D-405D-9432-1CCE75EE2F3F}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="FS_Tile_01" ID="{7C01BD9D-2DF0-4464-BC58-E46DE38B7443}">
+																	<Language>SFX</Language>
+																	<AudioFile>WwiseProject Lesson 7\Originals\SFX\Footsteps\Tile\FS_Tile_01.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="691460875"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="FS_Tile_01" ID="{7C01BD9D-2DF0-4464-BC58-E46DE38B7443}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="FS_Tile_03" ID="{F53170FF-C112-40CC-9399-821345338F59}" ShortID="93980573">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3BD9D82A-3DDD-4235-A0F7-8975661CAF78}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0AE93B8B-4E4D-405D-9432-1CCE75EE2F3F}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="FS_Tile_03" ID="{840D7367-6F50-49D5-91FC-844A1C95A4B8}">
+																	<Language>SFX</Language>
+																	<AudioFile>WwiseProject Lesson 7\Originals\SFX\Footsteps\Tile\FS_Tile_03.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="462214986"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="FS_Tile_03" ID="{840D7367-6F50-49D5-91FC-844A1C95A4B8}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+													</ChildrenList>
+												</Folder>
+											</ChildrenList>
+										</Folder>
+										<Sound Name="Cubetrack" ID="{B06C909E-EFCA-4A3A-A1F0-19B4CA233B93}" ShortID="134428665">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3BD9D82A-3DDD-4235-A0F7-8975661CAF78}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0AE93B8B-4E4D-405D-9432-1CCE75EE2F3F}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Cubetrack" ID="{07C48A43-8A2F-4075-B05D-98FDA02E104F}">
+													<Language>SFX</Language>
+													<AudioFile>WwiseProject Lesson 7\Originals\SFX\Cubetrack.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="122221544"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Cubetrack" ID="{07C48A43-8A2F-4075-B05D-98FDA02E104F}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Defeated1" ID="{069742F9-2BB8-41DF-90E2-EBAD42F7C86C}" ShortID="684748936">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3BD9D82A-3DDD-4235-A0F7-8975661CAF78}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0AE93B8B-4E4D-405D-9432-1CCE75EE2F3F}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Defeated1" ID="{95F36F7F-8542-4F09-8BFE-D88976394901}">
+													<Language>SFX</Language>
+													<AudioFile>WwiseProject Lesson 7\Originals\SFX\Defeated1.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="251834477"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Defeated1" ID="{95F36F7F-8542-4F09-8BFE-D88976394901}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="explode" ID="{E0D151E4-E18F-467E-B42D-15E0AE9D54F2}" ShortID="351798221">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3BD9D82A-3DDD-4235-A0F7-8975661CAF78}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0AE93B8B-4E4D-405D-9432-1CCE75EE2F3F}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="explode" ID="{96775EE3-2CEE-43DB-9562-EB4EC6EC0E3F}">
+													<Language>SFX</Language>
+													<AudioFile>WwiseProject Lesson 7\Originals\SFX\explode.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="48374574"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="explode" ID="{96775EE3-2CEE-43DB-9562-EB4EC6EC0E3F}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="explode2" ID="{87F60896-656B-4DCA-AEE0-DFCF611C167E}" ShortID="120511111">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3BD9D82A-3DDD-4235-A0F7-8975661CAF78}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0AE93B8B-4E4D-405D-9432-1CCE75EE2F3F}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="explode2" ID="{F29E121B-0636-484A-B6B2-0BFD265D7124}">
+													<Language>SFX</Language>
+													<AudioFile>WwiseProject Lesson 7\Originals\SFX\explode2.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="840123178"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="explode2" ID="{F29E121B-0636-484A-B6B2-0BFD265D7124}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="explode3" ID="{94C6F9B1-2506-484C-9685-C866FE39FD44}" ShortID="596705521">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3BD9D82A-3DDD-4235-A0F7-8975661CAF78}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0AE93B8B-4E4D-405D-9432-1CCE75EE2F3F}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="explode3" ID="{D482F37D-D4E9-4221-840C-1F07DBD556F0}">
+													<Language>SFX</Language>
+													<AudioFile>WwiseProject Lesson 7\Originals\SFX\explode3.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="1003844154"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="explode3" ID="{D482F37D-D4E9-4221-840C-1F07DBD556F0}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="explodemini1" ID="{EB14C7F7-2812-4CCE-834C-5D951EA71BC6}" ShortID="96576707">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3BD9D82A-3DDD-4235-A0F7-8975661CAF78}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0AE93B8B-4E4D-405D-9432-1CCE75EE2F3F}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="explodemini1" ID="{C0263D16-58DC-413C-A5C7-D7A1E5553105}">
+													<Language>SFX</Language>
+													<AudioFile>WwiseProject Lesson 7\Originals\SFX\explodemini1.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="683088806"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="explodemini1" ID="{C0263D16-58DC-413C-A5C7-D7A1E5553105}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="explodemini2" ID="{01C6C32A-2B6F-4ECC-A67F-C093E71BA01D}" ShortID="387316359">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3BD9D82A-3DDD-4235-A0F7-8975661CAF78}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0AE93B8B-4E4D-405D-9432-1CCE75EE2F3F}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="explodemini2" ID="{8BB69BAA-A916-4578-AC96-E50A0CF33330}">
+													<Language>SFX</Language>
+													<AudioFile>WwiseProject Lesson 7\Originals\SFX\explodemini2.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="702266702"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="explodemini2" ID="{8BB69BAA-A916-4578-AC96-E50A0CF33330}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="explodemini3" ID="{31B9DC43-5C94-49F9-8E0D-92FF9E648BE5}" ShortID="830777326">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3BD9D82A-3DDD-4235-A0F7-8975661CAF78}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0AE93B8B-4E4D-405D-9432-1CCE75EE2F3F}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="explodemini3" ID="{DDD7835E-B831-40DB-90C8-9C3659A0B29A}">
+													<Language>SFX</Language>
+													<AudioFile>WwiseProject Lesson 7\Originals\SFX\explodemini3.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="976515862"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="explodemini3" ID="{DDD7835E-B831-40DB-90C8-9C3659A0B29A}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="FireGem_Blast-01" ID="{A24D9BB9-C6E9-4BA4-BB38-79C38A83BE34}" ShortID="478533953">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3BD9D82A-3DDD-4235-A0F7-8975661CAF78}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0AE93B8B-4E4D-405D-9432-1CCE75EE2F3F}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="FireGem_Blast-01" ID="{D0744E3D-6549-4147-BF04-E3ACF272B91A}">
+													<Language>SFX</Language>
+													<AudioFile>WwiseProject Lesson 7\Originals\SFX\FireGem_Blast-01.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="454020607"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="FireGem_Blast-01" ID="{D0744E3D-6549-4147-BF04-E3ACF272B91A}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="FireGem_Blast-02" ID="{13E7178C-1A84-497A-A927-EEDCFE0FEB53}" ShortID="256525712">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3BD9D82A-3DDD-4235-A0F7-8975661CAF78}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0AE93B8B-4E4D-405D-9432-1CCE75EE2F3F}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="FireGem_Blast-02" ID="{410BF306-05D2-4EE6-820D-15E5A8E59BC3}">
+													<Language>SFX</Language>
+													<AudioFile>WwiseProject Lesson 7\Originals\SFX\FireGem_Blast-02.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="821071062"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="FireGem_Blast-02" ID="{410BF306-05D2-4EE6-820D-15E5A8E59BC3}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="FireGem_Blast-03" ID="{E7D405CF-AEFD-40CC-8420-64DA8B716458}" ShortID="590672672">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3BD9D82A-3DDD-4235-A0F7-8975661CAF78}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0AE93B8B-4E4D-405D-9432-1CCE75EE2F3F}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="FireGem_Blast-03" ID="{9432262F-C151-4230-94AF-3744D2EC9666}">
+													<Language>SFX</Language>
+													<AudioFile>WwiseProject Lesson 7\Originals\SFX\FireGem_Blast-03.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="765064997"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="FireGem_Blast-03" ID="{9432262F-C151-4230-94AF-3744D2EC9666}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="FireGem_Blast-04" ID="{F90F2AFD-6966-4B8D-A135-E8E499825F4E}" ShortID="615220906">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3BD9D82A-3DDD-4235-A0F7-8975661CAF78}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0AE93B8B-4E4D-405D-9432-1CCE75EE2F3F}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="FireGem_Blast-04" ID="{1C20C84F-45DE-4512-BB81-65B5CA4B2FEA}">
+													<Language>SFX</Language>
+													<AudioFile>WwiseProject Lesson 7\Originals\SFX\FireGem_Blast-04.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="207409139"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="FireGem_Blast-04" ID="{1C20C84F-45DE-4512-BB81-65B5CA4B2FEA}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="FireGem_Blast-05" ID="{846C202D-C6AB-4785-A706-0A778F6A1CFA}" ShortID="950846231">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3BD9D82A-3DDD-4235-A0F7-8975661CAF78}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0AE93B8B-4E4D-405D-9432-1CCE75EE2F3F}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="FireGem_Blast-05" ID="{B2817120-80DC-4F9D-A009-EBB56E64F2A3}">
+													<Language>SFX</Language>
+													<AudioFile>WwiseProject Lesson 7\Originals\SFX\FireGem_Blast-05.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="418248793"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="FireGem_Blast-05" ID="{B2817120-80DC-4F9D-A009-EBB56E64F2A3}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="FireGem_Flight" ID="{D36A5C26-F560-4BFD-8E4F-5A0D83A092A2}" ShortID="955965819">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3BD9D82A-3DDD-4235-A0F7-8975661CAF78}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0AE93B8B-4E4D-405D-9432-1CCE75EE2F3F}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="FireGem_Flight" ID="{7E8E7997-B2B0-4A1D-A749-C58E4DAFDC23}">
+													<Language>SFX</Language>
+													<AudioFile>WwiseProject Lesson 7\Originals\SFX\FireGem_Flight.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="346580"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="FireGem_Flight" ID="{7E8E7997-B2B0-4A1D-A749-C58E4DAFDC23}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="FireGem_Impact-01" ID="{CD7C00E6-36F0-400C-AE30-5364ED444F6D}" ShortID="1066768112">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3BD9D82A-3DDD-4235-A0F7-8975661CAF78}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0AE93B8B-4E4D-405D-9432-1CCE75EE2F3F}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="FireGem_Impact-01" ID="{D825E30A-71BE-417B-8EBC-514EA975EA7C}">
+													<Language>SFX</Language>
+													<AudioFile>WwiseProject Lesson 7\Originals\SFX\FireGem_Impact-01.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="630078745"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="FireGem_Impact-01" ID="{D825E30A-71BE-417B-8EBC-514EA975EA7C}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="FireGem_Impact-02" ID="{CD800A36-421B-4C77-9D78-8161C3E7CCB3}" ShortID="493738457">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3BD9D82A-3DDD-4235-A0F7-8975661CAF78}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0AE93B8B-4E4D-405D-9432-1CCE75EE2F3F}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="FireGem_Impact-02" ID="{4B0D0C31-8A05-4634-851E-E9DF3AA30D3F}">
+													<Language>SFX</Language>
+													<AudioFile>WwiseProject Lesson 7\Originals\SFX\FireGem_Impact-02.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="17249884"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="FireGem_Impact-02" ID="{4B0D0C31-8A05-4634-851E-E9DF3AA30D3F}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Gem_Blast" ID="{9195718F-8ECA-4EFC-8DF3-7573DF4F077F}" ShortID="1056118810">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3BD9D82A-3DDD-4235-A0F7-8975661CAF78}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0AE93B8B-4E4D-405D-9432-1CCE75EE2F3F}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Gem_Blast" ID="{E1E23727-5673-48E3-A53B-56083187EE93}">
+													<Language>SFX</Language>
+													<AudioFile>WwiseProject Lesson 7\Originals\SFX\Gem_Blast.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="78378419"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Gem_Blast" ID="{E1E23727-5673-48E3-A53B-56083187EE93}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Gem_Breaking_Head-01" ID="{D15D2C7C-8FCB-4AF8-9C94-E4EF139BADAF}" ShortID="972618904">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3BD9D82A-3DDD-4235-A0F7-8975661CAF78}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0AE93B8B-4E4D-405D-9432-1CCE75EE2F3F}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Gem_Breaking_Head-01" ID="{6CBA4483-53EF-4BD7-AF7A-4889F43E3D6C}">
+													<Language>SFX</Language>
+													<AudioFile>WwiseProject Lesson 7\Originals\SFX\Gem_Breaking_Head-01.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="776183458"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Gem_Breaking_Head-01" ID="{6CBA4483-53EF-4BD7-AF7A-4889F43E3D6C}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Gem_Breaking_Head-02" ID="{16E96BCC-565D-465D-8685-F49B853ACAD7}" ShortID="30220477">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3BD9D82A-3DDD-4235-A0F7-8975661CAF78}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0AE93B8B-4E4D-405D-9432-1CCE75EE2F3F}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Gem_Breaking_Head-02" ID="{DCBE4BEE-7D52-4C44-B4BA-1B3063C08AB1}">
+													<Language>SFX</Language>
+													<AudioFile>WwiseProject Lesson 7\Originals\SFX\Gem_Breaking_Head-02.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="417640249"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Gem_Breaking_Head-02" ID="{DCBE4BEE-7D52-4C44-B4BA-1B3063C08AB1}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Gem_Breaking_Head-03" ID="{8E19699A-7E2F-48F6-908A-F179056F47E1}" ShortID="1062512014">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3BD9D82A-3DDD-4235-A0F7-8975661CAF78}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0AE93B8B-4E4D-405D-9432-1CCE75EE2F3F}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Gem_Breaking_Head-03" ID="{E59C22D7-5914-4795-A6A1-01A4D0EFAA35}">
+													<Language>SFX</Language>
+													<AudioFile>WwiseProject Lesson 7\Originals\SFX\Gem_Breaking_Head-03.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="612684153"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Gem_Breaking_Head-03" ID="{E59C22D7-5914-4795-A6A1-01A4D0EFAA35}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Gem_Breaking_Head-04" ID="{1235B3AE-5156-4720-9E52-4DB07C02C794}" ShortID="604691284">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3BD9D82A-3DDD-4235-A0F7-8975661CAF78}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0AE93B8B-4E4D-405D-9432-1CCE75EE2F3F}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Gem_Breaking_Head-04" ID="{FF1E563B-7E0D-4AB2-B169-73C76A397065}">
+													<Language>SFX</Language>
+													<AudioFile>WwiseProject Lesson 7\Originals\SFX\Gem_Breaking_Head-04.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="973590610"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Gem_Breaking_Head-04" ID="{FF1E563B-7E0D-4AB2-B169-73C76A397065}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Gem_Breaking_Tail-01" ID="{1408CF6E-62FF-4136-BF98-1596AA633D1E}" ShortID="171746008">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3BD9D82A-3DDD-4235-A0F7-8975661CAF78}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0AE93B8B-4E4D-405D-9432-1CCE75EE2F3F}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Gem_Breaking_Tail-01" ID="{03E82BA5-C835-4953-9A31-A4074675FF41}">
+													<Language>SFX</Language>
+													<AudioFile>WwiseProject Lesson 7\Originals\SFX\Gem_Breaking_Tail-01.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="154045685"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Gem_Breaking_Tail-01" ID="{03E82BA5-C835-4953-9A31-A4074675FF41}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Gem_Breaking_Tail-02" ID="{774F994F-CDF4-4881-B3DB-1E06B843EAD4}" ShortID="171197399">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3BD9D82A-3DDD-4235-A0F7-8975661CAF78}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0AE93B8B-4E4D-405D-9432-1CCE75EE2F3F}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Gem_Breaking_Tail-02" ID="{CC61CBCB-89F5-41D1-A08E-AE8E957E53D1}">
+													<Language>SFX</Language>
+													<AudioFile>WwiseProject Lesson 7\Originals\SFX\Gem_Breaking_Tail-02.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="824924746"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Gem_Breaking_Tail-02" ID="{CC61CBCB-89F5-41D1-A08E-AE8E957E53D1}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Gem_Breaking_Tail-03" ID="{C485A854-B28E-44C9-B80E-D7E8F16C8028}" ShortID="296489384">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3BD9D82A-3DDD-4235-A0F7-8975661CAF78}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0AE93B8B-4E4D-405D-9432-1CCE75EE2F3F}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Gem_Breaking_Tail-03" ID="{63CEB33A-89A0-48BF-AC3D-A4E3C0DB0338}">
+													<Language>SFX</Language>
+													<AudioFile>WwiseProject Lesson 7\Originals\SFX\Gem_Breaking_Tail-03.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="831424196"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Gem_Breaking_Tail-03" ID="{63CEB33A-89A0-48BF-AC3D-A4E3C0DB0338}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Gem_Breaking_Tail-04" ID="{336ABF4A-D8D9-4140-BE66-BAAAD9CDBCA8}" ShortID="902738360">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3BD9D82A-3DDD-4235-A0F7-8975661CAF78}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0AE93B8B-4E4D-405D-9432-1CCE75EE2F3F}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Gem_Breaking_Tail-04" ID="{D093C508-E93F-4093-95D9-356B710F86C7}">
+													<Language>SFX</Language>
+													<AudioFile>WwiseProject Lesson 7\Originals\SFX\Gem_Breaking_Tail-04.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="867703118"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Gem_Breaking_Tail-04" ID="{D093C508-E93F-4093-95D9-356B710F86C7}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Gem_Recharge" ID="{C91EAB75-F24D-4925-80D8-6F6ACA9689F7}" ShortID="442256514">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3BD9D82A-3DDD-4235-A0F7-8975661CAF78}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0AE93B8B-4E4D-405D-9432-1CCE75EE2F3F}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Gem_Recharge" ID="{ED0B6B07-D187-401C-BB06-DFC3AE006E65}">
+													<Language>SFX</Language>
+													<AudioFile>WwiseProject Lesson 7\Originals\SFX\Gem_Recharge.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="793134332"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Gem_Recharge" ID="{ED0B6B07-D187-401C-BB06-DFC3AE006E65}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Goblin_Defeated" ID="{9920A458-0145-45B8-9A80-0C0BB4B3FA9F}" ShortID="587063870">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3BD9D82A-3DDD-4235-A0F7-8975661CAF78}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0AE93B8B-4E4D-405D-9432-1CCE75EE2F3F}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Goblin_Defeated" ID="{3F34A70A-2302-401E-8D4C-C7094D6984F9}">
+													<Language>SFX</Language>
+													<AudioFile>WwiseProject Lesson 7\Originals\SFX\Goblin_Defeated.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="707320289"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Goblin_Defeated" ID="{3F34A70A-2302-401E-8D4C-C7094D6984F9}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="grunt1" ID="{E0EBF9A7-7388-40EF-8BE4-E06F1ECAB116}" ShortID="200309816">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3BD9D82A-3DDD-4235-A0F7-8975661CAF78}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0AE93B8B-4E4D-405D-9432-1CCE75EE2F3F}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="grunt1" ID="{54478A46-4C89-4115-8B77-A9E8E462E8F4}">
+													<Language>SFX</Language>
+													<AudioFile>WwiseProject Lesson 7\Originals\SFX\grunt1.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="368905132"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="grunt1" ID="{54478A46-4C89-4115-8B77-A9E8E462E8F4}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="grunt2" ID="{33BE3AD9-787D-4110-A7CB-D59F5B8FFC16}" ShortID="1058263522">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3BD9D82A-3DDD-4235-A0F7-8975661CAF78}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0AE93B8B-4E4D-405D-9432-1CCE75EE2F3F}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="grunt2" ID="{031A4C7B-05C0-4D2B-878C-4AFA4B2546D6}">
+													<Language>SFX</Language>
+													<AudioFile>WwiseProject Lesson 7\Originals\SFX\grunt2.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="271350995"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="grunt2" ID="{031A4C7B-05C0-4D2B-878C-4AFA4B2546D6}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Heartbeat" ID="{E1850A32-7296-4F8D-B1AC-1A22CAC6D795}" ShortID="355022626">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3BD9D82A-3DDD-4235-A0F7-8975661CAF78}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0AE93B8B-4E4D-405D-9432-1CCE75EE2F3F}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Heartbeat" ID="{34C3F249-AF51-45A9-A753-213EF20D4CBF}">
+													<Language>SFX</Language>
+													<AudioFile>WwiseProject Lesson 7\Originals\SFX\Heartbeat.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="185280909"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Heartbeat" ID="{34C3F249-AF51-45A9-A753-213EF20D4CBF}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="iceball1" ID="{160EE57C-CA76-4782-8AFE-BF0327E748C1}" ShortID="166714926">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3BD9D82A-3DDD-4235-A0F7-8975661CAF78}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0AE93B8B-4E4D-405D-9432-1CCE75EE2F3F}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="iceball1" ID="{551400CF-DD2D-4F3A-B53C-74224097A2C3}">
+													<Language>SFX</Language>
+													<AudioFile>WwiseProject Lesson 7\Originals\SFX\iceball1.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="1063342810"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="iceball1" ID="{551400CF-DD2D-4F3A-B53C-74224097A2C3}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="iceball2" ID="{6DB41625-7087-4373-A5FD-C46C3E5E9FB2}" ShortID="972622457">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3BD9D82A-3DDD-4235-A0F7-8975661CAF78}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0AE93B8B-4E4D-405D-9432-1CCE75EE2F3F}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="iceball2" ID="{A59DAA23-70D3-48D0-B22D-2BFCF1AA8743}">
+													<Language>SFX</Language>
+													<AudioFile>WwiseProject Lesson 7\Originals\SFX\iceball2.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="457081885"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="iceball2" ID="{A59DAA23-70D3-48D0-B22D-2BFCF1AA8743}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="IceGem_Blast" ID="{47CF10FE-BFD1-4D8B-B76E-C50183E23035}" ShortID="194239117">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3BD9D82A-3DDD-4235-A0F7-8975661CAF78}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0AE93B8B-4E4D-405D-9432-1CCE75EE2F3F}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="IceGem_Blast" ID="{E932D370-D25B-4B66-B598-9C3DF82026BE}">
+													<Language>SFX</Language>
+													<AudioFile>WwiseProject Lesson 7\Originals\SFX\IceGem_Blast.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="797431783"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="IceGem_Blast" ID="{E932D370-D25B-4B66-B598-9C3DF82026BE}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="jump_1" ID="{3BB5AC5A-7740-430D-82E6-FDD30FEB4D4B}" ShortID="146241340">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3BD9D82A-3DDD-4235-A0F7-8975661CAF78}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0AE93B8B-4E4D-405D-9432-1CCE75EE2F3F}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="jump_1" ID="{E80DE0CD-EE16-4D75-981F-097666EC3178}">
+													<Language>SFX</Language>
+													<AudioFile>WwiseProject Lesson 7\Originals\SFX\jump_1.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="742587490"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="jump_1" ID="{E80DE0CD-EE16-4D75-981F-097666EC3178}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="jump_3" ID="{47310B3F-B043-4C26-8D39-A2DC06AA37F4}" ShortID="276728890">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3BD9D82A-3DDD-4235-A0F7-8975661CAF78}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0AE93B8B-4E4D-405D-9432-1CCE75EE2F3F}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="jump_3" ID="{677D4A25-231F-4C3A-9243-8FF1513AB841}">
+													<Language>SFX</Language>
+													<AudioFile>WwiseProject Lesson 7\Originals\SFX\jump_3.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="507641813"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="jump_3" ID="{677D4A25-231F-4C3A-9243-8FF1513AB841}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="land" ID="{A7F0C7D7-11D7-4B64-804D-3571C8DED20C}" ShortID="90661072">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3BD9D82A-3DDD-4235-A0F7-8975661CAF78}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0AE93B8B-4E4D-405D-9432-1CCE75EE2F3F}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="land" ID="{7C1D4EF1-B62D-48F9-A915-C4E18C6ED6CB}">
+													<Language>SFX</Language>
+													<AudioFile>WwiseProject Lesson 7\Originals\SFX\land.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="389930535"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="land" ID="{7C1D4EF1-B62D-48F9-A915-C4E18C6ED6CB}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Launch_Pad" ID="{DA03274E-8460-4B55-A02E-0706D7F0E003}" ShortID="908755841">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3BD9D82A-3DDD-4235-A0F7-8975661CAF78}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0AE93B8B-4E4D-405D-9432-1CCE75EE2F3F}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Launch_Pad" ID="{BE0A0A5B-363F-4A73-A0C6-10816437DEA2}">
+													<Language>SFX</Language>
+													<AudioFile>WwiseProject Lesson 7\Originals\SFX\Launch_Pad.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="933160799"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Launch_Pad" ID="{BE0A0A5B-363F-4A73-A0C6-10816437DEA2}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="pain2" ID="{253E20C8-CE7E-4A9E-8EF6-45D70886E655}" ShortID="738375537">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3BD9D82A-3DDD-4235-A0F7-8975661CAF78}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0AE93B8B-4E4D-405D-9432-1CCE75EE2F3F}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="pain2" ID="{6366360D-999D-4586-AB75-6E9473BD1A19}">
+													<Language>SFX</Language>
+													<AudioFile>WwiseProject Lesson 7\Originals\SFX\pain2.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="124553446"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="pain2" ID="{6366360D-999D-4586-AB75-6E9473BD1A19}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="pain3" ID="{EE45F4D2-ECE8-4196-82C0-AEF6070DB86C}" ShortID="1019242277">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3BD9D82A-3DDD-4235-A0F7-8975661CAF78}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0AE93B8B-4E4D-405D-9432-1CCE75EE2F3F}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="pain3" ID="{335EA4BC-751F-4FF7-8A4A-B3E8A5D22259}">
+													<Language>SFX</Language>
+													<AudioFile>WwiseProject Lesson 7\Originals\SFX\pain3.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="714065344"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="pain3" ID="{335EA4BC-751F-4FF7-8A4A-B3E8A5D22259}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="pain4" ID="{AB0994D7-196C-4723-9AF1-BEC02B82C0F8}" ShortID="843779089">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3BD9D82A-3DDD-4235-A0F7-8975661CAF78}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0AE93B8B-4E4D-405D-9432-1CCE75EE2F3F}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="pain4" ID="{22D7B7B3-9616-436F-8BD8-D43142733702}">
+													<Language>SFX</Language>
+													<AudioFile>WwiseProject Lesson 7\Originals\SFX\pain4.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="50582999"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="pain4" ID="{22D7B7B3-9616-436F-8BD8-D43142733702}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="pain5" ID="{8316E521-304F-4C8D-9687-67CA771E4898}" ShortID="702345837">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3BD9D82A-3DDD-4235-A0F7-8975661CAF78}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0AE93B8B-4E4D-405D-9432-1CCE75EE2F3F}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="pain5" ID="{B29EEE92-ABA9-457D-A048-35DD1DF1A613}">
+													<Language>SFX</Language>
+													<AudioFile>WwiseProject Lesson 7\Originals\SFX\pain5.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="664510507"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="pain5" ID="{B29EEE92-ABA9-457D-A048-35DD1DF1A613}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="SuperGem_Blast" ID="{B4C02617-1B1E-481A-BD2C-BD51A2D6329E}" ShortID="673374206">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3BD9D82A-3DDD-4235-A0F7-8975661CAF78}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0AE93B8B-4E4D-405D-9432-1CCE75EE2F3F}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SuperGem_Blast" ID="{12675B8D-7784-4A36-A2B1-E3B47A0D1B73}">
+													<Language>SFX</Language>
+													<AudioFile>WwiseProject Lesson 7\Originals\SFX\SuperGem_Blast.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="430986864"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SuperGem_Blast" ID="{12675B8D-7784-4A36-A2B1-E3B47A0D1B73}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="SuperGem_Pickup" ID="{C3327155-C43D-4881-9D11-31A02CBD58E6}" ShortID="899481754">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3BD9D82A-3DDD-4235-A0F7-8975661CAF78}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0AE93B8B-4E4D-405D-9432-1CCE75EE2F3F}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SuperGem_Pickup" ID="{A9E53F6B-42B7-4079-B930-3DF89DFFB754}">
+													<Language>SFX</Language>
+													<AudioFile>WwiseProject Lesson 7\Originals\SFX\SuperGem_Pickup.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="61752093"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SuperGem_Pickup" ID="{A9E53F6B-42B7-4079-B930-3DF89DFFB754}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</Folder>
+							</ChildrenList>
+						</Folder>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="RJT SFX" ID="{4FD955B4-01D4-4726-A461-F3F397C8A9FE}" ShortID="315210602">
+					<ChildrenList>
+						<Sound Name="FS_Tile_02" ID="{D9C65208-B939-4EFC-9694-8EB0766BAB6B}" ShortID="80378855">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="10"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3BD9D82A-3DDD-4235-A0F7-8975661CAF78}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0AE93B8B-4E4D-405D-9432-1CCE75EE2F3F}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="FS_Tile_02" ID="{89232510-911E-4521-BE6F-FA7EB8E3184D}">
+									<Language>SFX</Language>
+									<AudioFile>WwiseProject Lesson 7\Originals\SFX\Footsteps\Tile\FS_Tile_02.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="236005434"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="FS_Tile_02" ID="{89232510-911E-4521-BE6F-FA7EB8E3184D}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Body_Impact" ID="{0251700E-7CAF-473B-94FF-B7FDEB8B9D1F}" ShortID="334061646">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="10"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3BD9D82A-3DDD-4235-A0F7-8975661CAF78}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0AE93B8B-4E4D-405D-9432-1CCE75EE2F3F}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Body_Impact" ID="{F40F67F6-5FA1-476D-A5EA-3108F603F8B4}">
+									<Language>SFX</Language>
+									<AudioFile>WwiseProject Lesson 7\Originals\SFX\Body_Impact.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="835336770"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Body_Impact" ID="{F40F67F6-5FA1-476D-A5EA-3108F603F8B4}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="jump_2" ID="{9C3F9F35-AEDA-404B-8500-D81B6E74209E}" ShortID="688004750">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="10"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3BD9D82A-3DDD-4235-A0F7-8975661CAF78}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0AE93B8B-4E4D-405D-9432-1CCE75EE2F3F}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="jump_2" ID="{D9B428D5-857B-4658-89AB-CA543A7B7879}">
+									<Language>SFX</Language>
+									<AudioFile>WwiseProject Lesson 7\Originals\SFX\jump_2.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="513979949"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="jump_2" ID="{D9B428D5-857B-4658-89AB-CA543A7B7879}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="pain1" ID="{67B23646-A3C5-48E8-88B9-231FA0768CEB}" ShortID="51391986">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="10"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3BD9D82A-3DDD-4235-A0F7-8975661CAF78}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0AE93B8B-4E4D-405D-9432-1CCE75EE2F3F}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="pain1" ID="{B99BDB45-BEFB-4446-AB84-49E542C0E5BE}">
+									<Language>SFX</Language>
+									<AudioFile>WwiseProject Lesson 7\Originals\SFX\pain1.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="932509159"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="pain1" ID="{B99BDB45-BEFB-4446-AB84-49E542C0E5BE}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Staff_Swing-01" ID="{FD1782FB-BD8C-4F5B-A13C-F2D9E9FD84DA}" ShortID="221690139">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3BD9D82A-3DDD-4235-A0F7-8975661CAF78}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0AE93B8B-4E4D-405D-9432-1CCE75EE2F3F}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Staff_Swing-01" ID="{ACB4E35B-15BB-46A9-A3E9-A9B5263030D2}">
+									<Language>SFX</Language>
+									<AudioFile>WwiseProject Lesson 7\Originals\SFX\Staff_Swing-01.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="528969655"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Staff_Swing-01" ID="{ACB4E35B-15BB-46A9-A3E9-A9B5263030D2}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
 	</AudioObjects>
 </WwiseDocument>

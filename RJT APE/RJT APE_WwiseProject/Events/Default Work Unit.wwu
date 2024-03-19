@@ -1,6 +1,72 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{AD772ADC-7D60-49FC-941E-5098D177735F}" SchemaVersion="119">
 	<Events>
-		<WorkUnit Name="Default Work Unit" ID="{AD772ADC-7D60-49FC-941E-5098D177735F}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{AD772ADC-7D60-49FC-941E-5098D177735F}" PersistMode="Standalone">
+			<ChildrenList>
+				<Folder Name="Main" ID="{C227E7DC-6149-434A-9D4B-5D961ECBECFC}" ShortID="915626697">
+					<ChildrenList>
+						<Event Name="Jump" ID="{D856B34E-0BFD-473E-AD8A-0757028D6703}">
+							<ChildrenList>
+								<Action Name="" ID="{86D2326E-974D-4F0C-B503-ACA64FDEA5D4}" ShortID="68293203">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="jump_2" ID="{9C3F9F35-AEDA-404B-8500-D81B6E74209E}" WorkUnitID="{33CE4FE8-490B-4CAB-B6F2-5568092B0D7D}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Foot" ID="{8F4AB524-AF09-4AFD-BAFD-80787F953995}">
+							<ChildrenList>
+								<Action Name="" ID="{84510B03-5F19-404F-A683-41B10CCB4933}" ShortID="789546621">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="FS_Tile_02" ID="{D9C65208-B939-4EFC-9694-8EB0766BAB6B}" WorkUnitID="{33CE4FE8-490B-4CAB-B6F2-5568092B0D7D}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Land" ID="{8712CEBF-639B-48A5-BFD9-18FC9F06BEB5}">
+							<ChildrenList>
+								<Action Name="" ID="{184C3119-BC1E-4F5A-8CBA-592DA96DA088}" ShortID="940321282">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="pain1" ID="{67B23646-A3C5-48E8-88B9-231FA0768CEB}" WorkUnitID="{33CE4FE8-490B-4CAB-B6F2-5568092B0D7D}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Maps" ID="{3DADABB3-25A9-49BC-A158-39295DC1C9EF}" ShortID="712992367">
+					<ChildrenList>
+						<Event Name="Enter_Room" ID="{EE09BC32-0B77-4F57-ADC3-11A61A247B58}">
+							<ChildrenList>
+								<Action Name="" ID="{9413C3FA-8DB7-4208-BA12-E845E5711671}" ShortID="1031720006">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Staff_Swing-01" ID="{FD1782FB-BD8C-4F5B-A13C-F2D9E9FD84DA}" WorkUnitID="{33CE4FE8-490B-4CAB-B6F2-5568092B0D7D}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Music" ID="{3B3DFA48-E650-4548-A64B-9886BCBB39EE}">
+							<ChildrenList>
+								<Action Name="" ID="{B2CA185A-D2C8-4D75-B365-93F3139848D2}" ShortID="685943583">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Cubetrack" ID="{B06C909E-EFCA-4A3A-A1F0-19B4CA233B93}" WorkUnitID="{33CE4FE8-490B-4CAB-B6F2-5568092B0D7D}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
 	</Events>
 </WwiseDocument>
