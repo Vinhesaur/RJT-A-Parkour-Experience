@@ -318,6 +318,17 @@
                     "action": "Climb",
                     "isComposite": false,
                     "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "caa7ef65-5bf7-4244-b1b7-bc69a72668a0",
+                    "path": "<Keyboard>/space",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Climb",
+                    "isComposite": false,
+                    "isPartOfComposite": false
                 }
             ]
         }
