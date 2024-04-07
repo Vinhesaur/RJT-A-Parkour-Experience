@@ -33,5 +33,5 @@ EditorBuildSettings:
     path: Assets/Vinh/Scenes/UI Scenes/Settings_FromHome.unity
     guid: d35046f51465e9941a524147f87c4ac1
   m_configObjects:
-    com.unity.input.settings: {fileID: 11400000, guid: 9e7be553448fa2546aea5752021cbcf7,
+    com.unity.input.settings: {fileID: 11400000, guid: 05710c8180e0bfe4a966ba19275ad7c5,
       type: 2}
