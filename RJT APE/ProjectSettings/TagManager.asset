@@ -10,6 +10,7 @@ TagManager:
   - Barrier2
   - Barrier3
   - Barrier4
+  - Ground
   layers:
   - Default
   - TransparentFX

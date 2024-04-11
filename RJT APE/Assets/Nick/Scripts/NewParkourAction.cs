@@ -63,4 +63,6 @@ public class NewParkourAction : ScriptableObject
     public float CompareStartTime => compareStartTime;
     public float CompareEndTime => compareEndTime;
     public Vector3 ComparePositionWeight => comparePositionWeight;
+
+    public float maximumH => maximumHeight;
 }
