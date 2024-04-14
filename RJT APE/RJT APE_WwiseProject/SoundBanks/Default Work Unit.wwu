@@ -4,7 +4,14 @@
 		<WorkUnit Name="Default Work Unit" ID="{6E15CD7A-8BBF-454B-AA4E-E5E5E70721B3}" PersistMode="Standalone">
 			<ChildrenList>
 				<SoundBank Name="Main_Soundbank" ID="{2D811A9F-7E26-47D0-B040-E74F05229893}">
-					<ObjectInclusionList/>
+					<ObjectInclusionList>
+						<ObjectRef Name="Music" ID="{3B3DFA48-E650-4548-A64B-9886BCBB39EE}" WorkUnitID="{AD772ADC-7D60-49FC-941E-5098D177735F}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Jump" ID="{D856B34E-0BFD-473E-AD8A-0757028D6703}" WorkUnitID="{AD772ADC-7D60-49FC-941E-5098D177735F}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Land" ID="{8712CEBF-639B-48A5-BFD9-18FC9F06BEB5}" WorkUnitID="{AD772ADC-7D60-49FC-941E-5098D177735F}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Foot" ID="{8F4AB524-AF09-4AFD-BAFD-80787F953995}" WorkUnitID="{AD772ADC-7D60-49FC-941E-5098D177735F}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Breathing" ID="{D1EAE8C7-6CDB-4DB1-921A-EFF509E3B454}" WorkUnitID="{AD772ADC-7D60-49FC-941E-5098D177735F}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Enter_Room" ID="{EE09BC32-0B77-4F57-ADC3-11A61A247B58}" WorkUnitID="{AD772ADC-7D60-49FC-941E-5098D177735F}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
 				</SoundBank>

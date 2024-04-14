@@ -120,7 +120,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: 7acd156ebf8b4b45aa4ee5e5e70721b3
     GuidInternal: 
-    m_lastTime: -8584907320890192534
+    m_lastTime: -8584885003378281320
     List:
     - name: Main_Soundbank
       guid: 9f1a812d267ed047b040e74f05229893
@@ -148,8 +148,25 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: dc2a77ad607dfc49941e5098d177735f
     GuidInternal: 
-    m_lastTime: -8584907320894495118
+    m_lastTime: -8584885015681082012
     List:
+    - name: Breathing
+      guid: c7e8ead1db6cb14d921aeff509e3b454
+      id: 238653005
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: dc2a77ad607dfc49941e5098d177735f
+      - ElementName: Breathing
+        ObjectType: 3
+        guid: c7e8ead1db6cb14d921aeff509e3b454
+      Path: Events\Default Work Unit\Breathing
+      maxAttenuation: 0
+      maxDuration: 0.6292292
+      minDuration: 0.6292292
     - name: Enter_Room
       guid: 32bc09ee770b574fadc311a61a247b58
       id: 2409810141
@@ -168,8 +185,8 @@ MonoBehaviour:
         guid: 32bc09ee770b574fadc311a61a247b58
       Path: Events\Default Work Unit\Maps\Enter_Room
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 0.6292292
+      minDuration: 0.6292292
     - name: Foot
       guid: 24b54a8f09affd4abafd80787f953995
       id: 3031504797
@@ -188,8 +205,8 @@ MonoBehaviour:
         guid: 24b54a8f09affd4abafd80787f953995
       Path: Events\Default Work Unit\Main\Foot
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 0.6077551
+      minDuration: 0.6077551
     - name: Jump
       guid: 4eb356d8fd0b3e47ad8a0757028d6703
       id: 3833651337
@@ -208,8 +225,8 @@ MonoBehaviour:
         guid: 4eb356d8fd0b3e47ad8a0757028d6703
       Path: Events\Default Work Unit\Main\Jump
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 0.17770974
+      minDuration: 0.17770974
     - name: Land
       guid: bfce12879b63a548bfd918fc9f06beb5
       id: 674522502
@@ -228,8 +245,8 @@ MonoBehaviour:
         guid: bfce12879b63a548bfd918fc9f06beb5
       Path: Events\Default Work Unit\Main\Land
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 0.36453515
+      minDuration: 0.36453515
     - name: Main
       guid: dce727c249614a439d4b5d961ecbecfc
       id: 3161908922
@@ -282,8 +299,8 @@ MonoBehaviour:
         guid: 48fa3d3b50e64845a64b9886bcbb39ee
       Path: Events\Default Work Unit\Maps\Music
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 2.7636092
+      minDuration: 2.7636092
   RtpcWwu:
   - PhysicalPath: Game Parameters\Default Work Unit.wwu
     PathAndIcons:
@@ -369,7 +386,7 @@ MonoBehaviour:
     m_lastTime: -8584913283504007839
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 
+  ExpandedWaapiItemIds: 01000000050000000600000007000000090000000a0000000c0000000d0000000e00000017000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0

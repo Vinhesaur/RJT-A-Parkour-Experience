@@ -1,0 +1,15 @@
+Event	ID	Name			Wwise Object Path	Notes
+	238653005	Breathing			\Default Work Unit\Breathing	
+	674522502	Land			\Default Work Unit\Main\Land	
+	2409810141	Enter_Room			\Default Work Unit\Maps\Enter_Room	
+	3031504797	Foot			\Default Work Unit\Main\Foot	
+	3833651337	Jump			\Default Work Unit\Main\Jump	
+	3991942870	Music			\Default Work Unit\Maps\Music	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	122221544	Cubetrack	V:\RJT-A-Parkour-Experience\RJT-A-Parkour-Experience\RJT APE\RJT APE_WwiseProject\.cache\Mac\SFX\WwiseProject Lesson 7\Originals\SFX\Cubetrack_B8E429A5.wem		\Actor-Mixer Hierarchy\Default Work Unit\WwiseProject Lesson 7\Originals\SFX\Cubetrack		487596
+	236005434	FS_Tile_02	V:\RJT-A-Parkour-Experience\RJT-A-Parkour-Experience\RJT APE\RJT APE_WwiseProject\.cache\Mac\SFX\WwiseProject Lesson 7\Originals\SFX\Footsteps\Tile\FS_Tile_02_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\RJT SFX\FS_Tile_02		53700
+	513979949	jump_2	V:\RJT-A-Parkour-Experience\RJT-A-Parkour-Experience\RJT APE\RJT APE_WwiseProject\.cache\Mac\SFX\WwiseProject Lesson 7\Originals\SFX\jump_2_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\RJT SFX\jump_2		15770
+	528969655	Staff_Swing-01	V:\RJT-A-Parkour-Experience\RJT-A-Parkour-Experience\RJT APE\RJT APE_WwiseProject\.cache\Mac\SFX\WwiseProject Lesson 7\Originals\SFX\Staff_Swing-01_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\RJT SFX\Staff_Swing-01		60502
+	932509159	pain1	V:\RJT-A-Parkour-Experience\RJT-A-Parkour-Experience\RJT APE\RJT APE_WwiseProject\.cache\Mac\SFX\WwiseProject Lesson 7\Originals\SFX\pain1_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\RJT SFX\pain1		32248
+

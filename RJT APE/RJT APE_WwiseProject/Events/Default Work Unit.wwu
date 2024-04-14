@@ -66,6 +66,17 @@
 						</Event>
 					</ChildrenList>
 				</Folder>
+				<Event Name="Breathing" ID="{D1EAE8C7-6CDB-4DB1-921A-EFF509E3B454}">
+					<ChildrenList>
+						<Action Name="" ID="{801321FD-44DD-4B7C-AF0E-5FD9DE537B33}" ShortID="347434895">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Staff_Swing-01" ID="{FD1782FB-BD8C-4F5B-A13C-F2D9E9FD84DA}" WorkUnitID="{33CE4FE8-490B-4CAB-B6F2-5568092B0D7D}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

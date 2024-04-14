@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="16" SoundBankVersion="150">
+	<RootPaths>
+		<ProjectRoot>../..</ProjectRoot>
+		<SourceFilesRoot>../../.cache/Mac</SourceFilesRoot>
+		<SoundBanksRoot>.</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>.</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{7E9697E7-486F-832A-5A2B-F312DA37C78A}">
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+			<Plugins>
+				<AudioDevices>
+					<Plugin Id="2317455096" Name="No_Output" LibName="No Output" LibId="11862023"/>
+					<Plugin Id="3859886410" Name="System" LibName="System" LibId="11403271"/>
+				</AudioDevices>
+			</Plugins>
+			<Busses>
+				<Bus Id="393239870" Name="SFX"/>
+				<Bus Id="1229948536" Name="Environment"/>
+				<Bus Id="3803692087" Name="Master Audio Bus"/>
+				<Bus Id="3991942870" Name="Music"/>
+			</Busses>
+			<GameParameters>
+				<GameParameter Id="988953028" Name="SFXVolume"/>
+				<GameParameter Id="2346531308" Name="MusicVolume"/>
+			</GameParameters>
+			<SwitchGroups>
+				<SwitchGroup Id="3031504797" Name="Foot">
+					<Switches/>
+				</SwitchGroup>
+				<SwitchGroup Id="3865314626" Name="Material">
+					<Switches/>
+				</SwitchGroup>
+			</SwitchGroups>
+		</SoundBank>
+		<SoundBank Id="2228651116" Type="User" Language="SFX" Hash="{E41DC3DD-A301-AE25-7937-29FC9BFF4FD3}">
+			<ShortName>Main_Soundbank</ShortName>
+			<Path>Main_Soundbank.bnk</Path>
+			<Media>
+				<File Id="122221544" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>WwiseProject Lesson 7\Originals\SFX\Cubetrack.wav</ShortName>
+					<CachePath>SFX/WwiseProject Lesson 7/Originals/SFX/Cubetrack_B8E429A5.wem</CachePath>
+				</File>
+				<File Id="236005434" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>WwiseProject Lesson 7\Originals\SFX\Footsteps\Tile\FS_Tile_02.wav</ShortName>
+					<CachePath>SFX/WwiseProject Lesson 7/Originals/SFX/Footsteps/Tile/FS_Tile_02_818F3B66.wem</CachePath>
+				</File>
+				<File Id="513979949" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>WwiseProject Lesson 7\Originals\SFX\jump_2.wav</ShortName>
+					<CachePath>SFX/WwiseProject Lesson 7/Originals/SFX/jump_2_818F3B66.wem</CachePath>
+				</File>
+				<File Id="528969655" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>WwiseProject Lesson 7\Originals\SFX\Staff_Swing-01.wav</ShortName>
+					<CachePath>SFX/WwiseProject Lesson 7/Originals/SFX/Staff_Swing-01_818F3B66.wem</CachePath>
+				</File>
+				<File Id="932509159" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>WwiseProject Lesson 7\Originals\SFX\pain1.wav</ShortName>
+					<CachePath>SFX/WwiseProject Lesson 7/Originals/SFX/pain1_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="238653005" Name="Breathing" DurationType="OneShot" DurationMin="0.6292292" DurationMax="0.6292292">
+					<MediaRefs>
+						<MediaRef Id="528969655"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2409810141" Name="Enter_Room" DurationType="OneShot" DurationMin="0.6292292" DurationMax="0.6292292">
+					<MediaRefs>
+						<MediaRef Id="528969655"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3031504797" Name="Foot" DurationType="OneShot" DurationMin="0.6077551" DurationMax="0.6077551">
+					<MediaRefs>
+						<MediaRef Id="236005434"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3833651337" Name="Jump" DurationType="OneShot" DurationMin="0.17770974" DurationMax="0.17770974">
+					<MediaRefs>
+						<MediaRef Id="513979949"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="674522502" Name="Land" DurationType="OneShot" DurationMin="0.36453515" DurationMax="0.36453515">
+					<MediaRefs>
+						<MediaRef Id="932509159"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3991942870" Name="Music" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="122221544"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{C1AE821B-27A3-D2D3-1E7B-BAEC509AB44A}</FileHash>
+</SoundBanksInfo>
