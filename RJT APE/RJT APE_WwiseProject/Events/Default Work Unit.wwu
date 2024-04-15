@@ -16,17 +16,6 @@
 								</Action>
 							</ChildrenList>
 						</Event>
-						<Event Name="Foot" ID="{8F4AB524-AF09-4AFD-BAFD-80787F953995}">
-							<ChildrenList>
-								<Action Name="" ID="{84510B03-5F19-404F-A683-41B10CCB4933}" ShortID="789546621">
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="FS_Tile_02" ID="{D9C65208-B939-4EFC-9694-8EB0766BAB6B}" WorkUnitID="{33CE4FE8-490B-4CAB-B6F2-5568092B0D7D}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-							</ChildrenList>
-						</Event>
 						<Event Name="Land" ID="{8712CEBF-639B-48A5-BFD9-18FC9F06BEB5}">
 							<ChildrenList>
 								<Action Name="" ID="{184C3119-BC1E-4F5A-8CBA-592DA96DA088}" ShortID="940321282">
@@ -77,6 +66,32 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Folder Name="Footsteps" ID="{B9F5A721-D858-4259-B7C7-9DC54FA72BAF}" ShortID="974571865">
+					<ChildrenList>
+						<Event Name="Play_Foot_Dirt" ID="{EA6DC323-5475-4F7D-87A6-2828A884C58C}">
+							<ChildrenList>
+								<Action Name="" ID="{3EDE5428-497F-4E1B-ABD1-7812E34B8E39}" ShortID="339498692">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Footsteps Dirt" ID="{CA1AD2EE-A09D-4FBB-A18E-E3A3735DCD7E}" WorkUnitID="{33CE4FE8-490B-4CAB-B6F2-5568092B0D7D}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Foot" ID="{8F4AB524-AF09-4AFD-BAFD-80787F953995}">
+							<ChildrenList>
+								<Action Name="" ID="{84510B03-5F19-404F-A683-41B10CCB4933}" ShortID="789546621">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="FS_Tile_02" ID="{D9C65208-B939-4EFC-9694-8EB0766BAB6B}" WorkUnitID="{33CE4FE8-490B-4CAB-B6F2-5568092B0D7D}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

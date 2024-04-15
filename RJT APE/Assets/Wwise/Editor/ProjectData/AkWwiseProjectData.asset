@@ -120,7 +120,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: 7acd156ebf8b4b45aa4ee5e5e70721b3
     GuidInternal: 
-    m_lastTime: -8584885003378281320
+    m_lastTime: -8584884104861194437
     List:
     - name: Main_Soundbank
       guid: 9f1a812d267ed047b040e74f05229893
@@ -148,7 +148,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: dc2a77ad607dfc49941e5098d177735f
     GuidInternal: 
-    m_lastTime: -8584885015681082012
+    m_lastTime: -8584884104861249601
     List:
     - name: Breathing
       guid: c7e8ead1db6cb14d921aeff509e3b454
@@ -197,16 +197,33 @@ MonoBehaviour:
       - ElementName: Default Work Unit
         ObjectType: 12
         guid: dc2a77ad607dfc49941e5098d177735f
-      - ElementName: Main
+      - ElementName: Footsteps
         ObjectType: 4
-        guid: dce727c249614a439d4b5d961ecbecfc
+        guid: 21a7f5b958d85942b7c79dc54fa72baf
       - ElementName: Foot
         ObjectType: 3
         guid: 24b54a8f09affd4abafd80787f953995
-      Path: Events\Default Work Unit\Main\Foot
+      Path: Events\Default Work Unit\Footsteps\Foot
       maxAttenuation: 0
       maxDuration: 0.6077551
       minDuration: 0.6077551
+    - name: Footsteps
+      guid: 21a7f5b958d85942b7c79dc54fa72baf
+      id: 2385628198
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: dc2a77ad607dfc49941e5098d177735f
+      - ElementName: Footsteps
+        ObjectType: 4
+        guid: 21a7f5b958d85942b7c79dc54fa72baf
+      Path: Events\Default Work Unit\Footsteps
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
     - name: Jump
       guid: 4eb356d8fd0b3e47ad8a0757028d6703
       id: 3833651337
@@ -299,8 +316,28 @@ MonoBehaviour:
         guid: 48fa3d3b50e64845a64b9886bcbb39ee
       Path: Events\Default Work Unit\Maps\Music
       maxAttenuation: 0
-      maxDuration: 2.7636092
-      minDuration: 2.7636092
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_Foot_Dirt
+      guid: 23c36dea75547d4f87a62828a884c58c
+      id: 3625717502
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: dc2a77ad607dfc49941e5098d177735f
+      - ElementName: Footsteps
+        ObjectType: 4
+        guid: 21a7f5b958d85942b7c79dc54fa72baf
+      - ElementName: Play_Foot_Dirt
+        ObjectType: 3
+        guid: 23c36dea75547d4f87a62828a884c58c
+      Path: Events\Default Work Unit\Footsteps\Play_Foot_Dirt
+      maxAttenuation: 0
+      maxDuration: 0.8593651
+      minDuration: 0.49634922
   RtpcWwu:
   - PhysicalPath: Game Parameters\Default Work Unit.wwu
     PathAndIcons:
@@ -386,7 +423,7 @@ MonoBehaviour:
     m_lastTime: -8584913283504007839
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 01000000050000000600000007000000090000000a0000000c0000000d0000000e00000017000000
+  ExpandedWaapiItemIds: 0100000005000000060000000700000008000000090000000a0000000c0000000d0000000e00000017000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0

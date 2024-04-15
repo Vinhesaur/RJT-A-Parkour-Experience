@@ -19,6 +19,7 @@ namespace AK
         static const AkUniqueID JUMP = 3833651337U;
         static const AkUniqueID LAND = 674522502U;
         static const AkUniqueID MUSIC = 3991942870U;
+        static const AkUniqueID PLAY_FOOT_DIRT = 3625717502U;
     } // namespace EVENTS
 
     namespace SWITCHES

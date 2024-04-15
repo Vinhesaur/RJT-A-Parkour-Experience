@@ -5,6 +5,7 @@
 			<ChildrenList>
 				<SoundBank Name="Main_Soundbank" ID="{2D811A9F-7E26-47D0-B040-E74F05229893}">
 					<ObjectInclusionList>
+						<ObjectRef Name="Footsteps" ID="{B9F5A721-D858-4259-B7C7-9DC54FA72BAF}" WorkUnitID="{AD772ADC-7D60-49FC-941E-5098D177735F}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Music" ID="{3B3DFA48-E650-4548-A64B-9886BCBB39EE}" WorkUnitID="{AD772ADC-7D60-49FC-941E-5098D177735F}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Jump" ID="{D856B34E-0BFD-473E-AD8A-0757028D6703}" WorkUnitID="{AD772ADC-7D60-49FC-941E-5098D177735F}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Land" ID="{8712CEBF-639B-48A5-BFD9-18FC9F06BEB5}" WorkUnitID="{AD772ADC-7D60-49FC-941E-5098D177735F}" Origin="Manual" Filter="7"/>

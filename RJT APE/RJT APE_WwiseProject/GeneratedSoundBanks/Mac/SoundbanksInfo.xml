@@ -37,7 +37,7 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="2228651116" Type="User" Language="SFX" Hash="{E41DC3DD-A301-AE25-7937-29FC9BFF4FD3}">
+		<SoundBank Id="2228651116" Type="User" Language="SFX" Hash="{7D9D9E4B-EF0A-4E08-1DC1-F8603D85975B}">
 			<ShortName>Main_Soundbank</ShortName>
 			<Path>Main_Soundbank.bnk</Path>
 			<Media>
@@ -49,6 +49,10 @@
 					<ShortName>WwiseProject Lesson 7\Originals\SFX\Footsteps\Tile\FS_Tile_02.wav</ShortName>
 					<CachePath>SFX/WwiseProject Lesson 7/Originals/SFX/Footsteps/Tile/FS_Tile_02_818F3B66.wem</CachePath>
 				</File>
+				<File Id="479574771" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>WwiseProject Lesson 7\Originals\SFX\Footsteps\Dirt\FS_Dirt_02.wav</ShortName>
+					<CachePath>SFX/WwiseProject Lesson 7/Originals/SFX/Footsteps/Dirt/FS_Dirt_02_818F3B66.wem</CachePath>
+				</File>
 				<File Id="513979949" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>WwiseProject Lesson 7\Originals\SFX\jump_2.wav</ShortName>
 					<CachePath>SFX/WwiseProject Lesson 7/Originals/SFX/jump_2_818F3B66.wem</CachePath>
@@ -56,6 +60,14 @@
 				<File Id="528969655" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>WwiseProject Lesson 7\Originals\SFX\Staff_Swing-01.wav</ShortName>
 					<CachePath>SFX/WwiseProject Lesson 7/Originals/SFX/Staff_Swing-01_818F3B66.wem</CachePath>
+				</File>
+				<File Id="720792073" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>WwiseProject Lesson 7\Originals\SFX\Footsteps\Dirt\FS_Dirt_03.wav</ShortName>
+					<CachePath>SFX/WwiseProject Lesson 7/Originals/SFX/Footsteps/Dirt/FS_Dirt_03_818F3B66.wem</CachePath>
+				</File>
+				<File Id="820302838" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>WwiseProject Lesson 7\Originals\SFX\Footsteps\Dirt\FS_Dirt_01.wav</ShortName>
+					<CachePath>SFX/WwiseProject Lesson 7/Originals/SFX/Footsteps/Dirt/FS_Dirt_01_818F3B66.wem</CachePath>
 				</File>
 				<File Id="932509159" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>WwiseProject Lesson 7\Originals\SFX\pain1.wav</ShortName>
@@ -93,8 +105,15 @@
 						<MediaRef Id="122221544"/>
 					</MediaRefs>
 				</Event>
+				<Event Id="3625717502" Name="Play_Foot_Dirt" DurationType="OneShot" DurationMin="0.49634922" DurationMax="0.8593651">
+					<MediaRefs>
+						<MediaRef Id="479574771"/>
+						<MediaRef Id="720792073"/>
+						<MediaRef Id="820302838"/>
+					</MediaRefs>
+				</Event>
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{C1AE821B-27A3-D2D3-1E7B-BAEC509AB44A}</FileHash>
+	<FileHash>{E197921C-E0DC-40CA-06F8-63CDBC1300B9}</FileHash>
 </SoundBanksInfo>

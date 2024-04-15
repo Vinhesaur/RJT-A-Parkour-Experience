@@ -13,28 +13,6 @@
 											<ChildrenList>
 												<Folder Name="Concrete" ID="{7073B41E-4A84-4969-96F7-97EBCB258BE6}" ShortID="78948818">
 													<ChildrenList>
-														<Sound Name="FS_Concrete_01" ID="{7C347B39-0C13-4C93-91DA-45F26A6BDF7E}" ShortID="490104139">
-															<ReferenceList>
-																<Reference Name="Conversion">
-																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3BD9D82A-3DDD-4235-A0F7-8975661CAF78}"/>
-																</Reference>
-																<Reference Name="OutputBus">
-																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0AE93B8B-4E4D-405D-9432-1CCE75EE2F3F}"/>
-																</Reference>
-															</ReferenceList>
-															<ChildrenList>
-																<AudioFileSource Name="FS_Concrete_01" ID="{F59F227C-0BC6-4B70-80F7-5E055F06C2A7}">
-																	<Language>SFX</Language>
-																	<AudioFile>WwiseProject Lesson 7\Originals\SFX\Footsteps\Concrete\FS_Concrete_01.wav</AudioFile>
-																	<MediaIDList>
-																		<MediaID ID="839148642"/>
-																	</MediaIDList>
-																</AudioFileSource>
-															</ChildrenList>
-															<ActiveSourceList>
-																<ActiveSource Name="FS_Concrete_01" ID="{F59F227C-0BC6-4B70-80F7-5E055F06C2A7}" Platform="Linked"/>
-															</ActiveSourceList>
-														</Sound>
 														<Sound Name="FS_Concrete_02" ID="{5E76A2EA-4E8F-4597-B0C7-0EA098BBD0D3}" ShortID="762846768">
 															<ReferenceList>
 																<Reference Name="Conversion">
@@ -77,76 +55,6 @@
 															</ChildrenList>
 															<ActiveSourceList>
 																<ActiveSource Name="FS_Concrete_03" ID="{8970CCF6-9203-4624-85C5-E36634F51016}" Platform="Linked"/>
-															</ActiveSourceList>
-														</Sound>
-													</ChildrenList>
-												</Folder>
-												<Folder Name="Dirt" ID="{8747C568-DB0C-4D0B-A6C7-403550A7C4AC}" ShortID="786329657">
-													<ChildrenList>
-														<Sound Name="FS_Dirt_01" ID="{AA16BE46-A61D-49D8-8B8D-910CE96E81C0}" ShortID="584726968">
-															<ReferenceList>
-																<Reference Name="Conversion">
-																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3BD9D82A-3DDD-4235-A0F7-8975661CAF78}"/>
-																</Reference>
-																<Reference Name="OutputBus">
-																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0AE93B8B-4E4D-405D-9432-1CCE75EE2F3F}"/>
-																</Reference>
-															</ReferenceList>
-															<ChildrenList>
-																<AudioFileSource Name="FS_Dirt_01" ID="{F7482B52-634F-4310-B763-5BDA61EDA407}">
-																	<Language>SFX</Language>
-																	<AudioFile>WwiseProject Lesson 7\Originals\SFX\Footsteps\Dirt\FS_Dirt_01.wav</AudioFile>
-																	<MediaIDList>
-																		<MediaID ID="820302838"/>
-																	</MediaIDList>
-																</AudioFileSource>
-															</ChildrenList>
-															<ActiveSourceList>
-																<ActiveSource Name="FS_Dirt_01" ID="{F7482B52-634F-4310-B763-5BDA61EDA407}" Platform="Linked"/>
-															</ActiveSourceList>
-														</Sound>
-														<Sound Name="FS_Dirt_02" ID="{2987EA9C-314F-4CCA-AB7D-686EACA7EF2D}" ShortID="878343335">
-															<ReferenceList>
-																<Reference Name="Conversion">
-																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3BD9D82A-3DDD-4235-A0F7-8975661CAF78}"/>
-																</Reference>
-																<Reference Name="OutputBus">
-																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0AE93B8B-4E4D-405D-9432-1CCE75EE2F3F}"/>
-																</Reference>
-															</ReferenceList>
-															<ChildrenList>
-																<AudioFileSource Name="FS_Dirt_02" ID="{F21E26F9-4552-4BDD-89E1-9A15F9825BD6}">
-																	<Language>SFX</Language>
-																	<AudioFile>WwiseProject Lesson 7\Originals\SFX\Footsteps\Dirt\FS_Dirt_02.wav</AudioFile>
-																	<MediaIDList>
-																		<MediaID ID="479574771"/>
-																	</MediaIDList>
-																</AudioFileSource>
-															</ChildrenList>
-															<ActiveSourceList>
-																<ActiveSource Name="FS_Dirt_02" ID="{F21E26F9-4552-4BDD-89E1-9A15F9825BD6}" Platform="Linked"/>
-															</ActiveSourceList>
-														</Sound>
-														<Sound Name="FS_Dirt_03" ID="{C0996F75-944B-4726-ADA9-0C330635F56B}" ShortID="116477879">
-															<ReferenceList>
-																<Reference Name="Conversion">
-																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3BD9D82A-3DDD-4235-A0F7-8975661CAF78}"/>
-																</Reference>
-																<Reference Name="OutputBus">
-																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0AE93B8B-4E4D-405D-9432-1CCE75EE2F3F}"/>
-																</Reference>
-															</ReferenceList>
-															<ChildrenList>
-																<AudioFileSource Name="FS_Dirt_03" ID="{B3FC48C0-01C9-4D2F-9C8D-B7FD3F7B7948}">
-																	<Language>SFX</Language>
-																	<AudioFile>WwiseProject Lesson 7\Originals\SFX\Footsteps\Dirt\FS_Dirt_03.wav</AudioFile>
-																	<MediaIDList>
-																		<MediaID ID="720792073"/>
-																	</MediaIDList>
-																</AudioFileSource>
-															</ChildrenList>
-															<ActiveSourceList>
-																<ActiveSource Name="FS_Dirt_03" ID="{B3FC48C0-01C9-4D2F-9C8D-B7FD3F7B7948}" Platform="Linked"/>
 															</ActiveSourceList>
 														</Sound>
 													</ChildrenList>
@@ -1361,6 +1269,84 @@
 						</Sound>
 					</ChildrenList>
 				</Folder>
+				<RandomSequenceContainer Name="Footsteps Dirt" ID="{CA1AD2EE-A09D-4FBB-A18E-E3A3735DCD7E}" ShortID="867458710">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3BD9D82A-3DDD-4235-A0F7-8975661CAF78}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0AE93B8B-4E4D-405D-9432-1CCE75EE2F3F}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="FS_Dirt_01" ID="{AA16BE46-A61D-49D8-8B8D-910CE96E81C0}" ShortID="584726968">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3BD9D82A-3DDD-4235-A0F7-8975661CAF78}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0AE93B8B-4E4D-405D-9432-1CCE75EE2F3F}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="FS_Dirt_01" ID="{F7482B52-634F-4310-B763-5BDA61EDA407}">
+									<Language>SFX</Language>
+									<AudioFile>WwiseProject Lesson 7\Originals\SFX\Footsteps\Dirt\FS_Dirt_01.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="820302838"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="FS_Dirt_01" ID="{F7482B52-634F-4310-B763-5BDA61EDA407}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="FS_Dirt_02" ID="{2987EA9C-314F-4CCA-AB7D-686EACA7EF2D}" ShortID="878343335">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3BD9D82A-3DDD-4235-A0F7-8975661CAF78}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0AE93B8B-4E4D-405D-9432-1CCE75EE2F3F}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="FS_Dirt_02" ID="{F21E26F9-4552-4BDD-89E1-9A15F9825BD6}">
+									<Language>SFX</Language>
+									<AudioFile>WwiseProject Lesson 7\Originals\SFX\Footsteps\Dirt\FS_Dirt_02.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="479574771"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="FS_Dirt_02" ID="{F21E26F9-4552-4BDD-89E1-9A15F9825BD6}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="FS_Dirt_03" ID="{C0996F75-944B-4726-ADA9-0C330635F56B}" ShortID="116477879">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3BD9D82A-3DDD-4235-A0F7-8975661CAF78}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0AE93B8B-4E4D-405D-9432-1CCE75EE2F3F}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="FS_Dirt_03" ID="{B3FC48C0-01C9-4D2F-9C8D-B7FD3F7B7948}">
+									<Language>SFX</Language>
+									<AudioFile>WwiseProject Lesson 7\Originals\SFX\Footsteps\Dirt\FS_Dirt_03.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="720792073"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="FS_Dirt_03" ID="{B3FC48C0-01C9-4D2F-9C8D-B7FD3F7B7948}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</RandomSequenceContainer>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

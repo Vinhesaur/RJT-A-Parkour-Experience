@@ -34,6 +34,11 @@ public class PlayerScript: MonoBehaviour
     [SerializeField] Vector3 requiredMoveDir;
     Vector3 velocity;
 
+    // WWise
+    [Header("Wwise Events")]
+    public AK.Wwise.Event myFootstep;
+    private bool footstepplay = false;
+    private float lastFootstepTime = 0;
     private void Update()
     {
         if (!playerControl)
@@ -76,7 +81,7 @@ public class PlayerScript: MonoBehaviour
         PlayerMovement();
         SurfaceCheck();
         animator.SetBool("onSurface", onSurface);
-        Debug.Log("Player on Surface" + onSurface);
+        //Debug.Log("Player on Surface" + onSurface);
     }
 
     void PlayerMovement()
@@ -87,21 +92,40 @@ public class PlayerScript: MonoBehaviour
         float movementAmount = Mathf.Clamp01(Mathf.Abs(horizontal) + Mathf.Abs(vertical));
 
         var movementInput = (new Vector3(horizontal, 0, vertical)).normalized;
-
+        
         requiredMoveDir = CC.flatRotation * movementInput;
 
         cC.Move(velocity * Time.deltaTime);
-
+        if (movementAmount == 0)
+        {
+            footstepplay = false;
+        }
         if (movementAmount > 0 && moveDir.magnitude > 0.2f)
         {
             requiredRotation = Quaternion.LookRotation(moveDir);
+            if (!footstepplay)
+            {
+                myFootstep.Post(gameObject);
+                lastFootstepTime = Time.time;
+                footstepplay = true;
+            }
+            else
+            {
+                if (movementSpeed > 1)
+                {
+                    if (Time.time - lastFootstepTime > 750 / movementSpeed * Time.deltaTime)
+                    {
+                        footstepplay = false;
+                    }
+                }
+             
+            }
         }
 
         moveDir = requiredMoveDir;
 
 
         transform.rotation = Quaternion.RotateTowards(transform.rotation, requiredRotation, rotSpeed * Time.deltaTime);
-
         }
     void SurfaceCheck()
     {
@@ -202,6 +226,10 @@ public class PlayerScript: MonoBehaviour
     {
         get => playerControl;
         set => playerControl = value;
+    }
+    private void Awake()
+    {
+        lastFootstepTime = Time.time;
     }
 }
 

@@ -4010,7 +4010,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!54 &1441061326
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -7030,6 +7030,12 @@ PrefabInstance:
       propertyPath: movementSpeed
       value: 10
       objectReference: {fileID: 0}
+    - target: {fileID: 1269027544741939052, guid: 7e7310d3ba1d23b439eacdd27a1f167a,
+        type: 3}
+      propertyPath: myFootstep.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: 6f37cc3ddd8a6bf47b193d7ef1c02add,
+        type: 2}
     - target: {fileID: 1269027544741939055, guid: 7e7310d3ba1d23b439eacdd27a1f167a,
         type: 3}
       propertyPath: m_Name
