@@ -11,8 +11,6 @@ public class ParkourControllerScript : MonoBehaviour
 
     [SerializeField] NewParkourAction jumpDownParkourAction;
 
-    [SerializeField] NewParkourAction jumpAction;
-
     [Header("Parkour Action Area")]
     public List<NewParkourAction> newParkourAction;
 
@@ -32,18 +30,6 @@ public class ParkourControllerScript : MonoBehaviour
                         StartCoroutine(PerformParkourAction(action));
                         break;
                     }
-                }
-            }
-
-        }
-
-        if(Input.GetButton("Jump") && !playerScript.playerInAction && !playerScript.playerHanging) 
-        {
-            if (jumpDownParkourAction.maximumH <= 0)
-            {
-                foreach (var action in newParkourAction)
-                {
-                        StartCoroutine(PerformParkourAction(jumpAction));
                 }
             }
 
