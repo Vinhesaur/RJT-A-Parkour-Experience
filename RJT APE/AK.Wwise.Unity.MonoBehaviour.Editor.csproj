@@ -74,6 +74,7 @@
     <Compile Include="Assets\Wwise\MonoBehaviour\Editor\WwiseSetupWizard\AkXboxOneUtils.cs" />
     <Compile Include="Assets\Wwise\MonoBehaviour\Editor\AkGameObjectInspector.cs" />
     <Compile Include="Assets\Wwise\MonoBehaviour\Editor\EditorPlatformHelpers\Windows\AkWindowsPluginActivator.cs" />
+    <Compile Include="Assets\Wwise\MonoBehaviour\Editor\EditorPlatformHelpers\Mac\AkMacPluginActivator.cs" />
     <Compile Include="Assets\Wwise\MonoBehaviour\Editor\WwiseSetupWizard\AkUnitySettingsParser.cs" />
     <Compile Include="Assets\Wwise\MonoBehaviour\Editor\AkBaseInspector.cs" />
     <Compile Include="Assets\Wwise\MonoBehaviour\Editor\AkUnityEventHandlerInspector.cs" />

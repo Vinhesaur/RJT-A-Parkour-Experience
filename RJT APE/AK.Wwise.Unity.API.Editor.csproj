@@ -69,6 +69,7 @@
     <Compile Include="Assets\Wwise\API\Editor\WwiseMenu\Common\AkUnityBuilderBase.cs" />
     <Compile Include="Assets\Wwise\API\Editor\WwiseWindows\AkWwiseProjectData.cs" />
     <Compile Include="Assets\Wwise\API\Editor\WwiseTypes\AcousticTextureDrawer.cs" />
+    <Compile Include="Assets\Wwise\API\Editor\WwiseMenu\Mac\AkWwiseMenu_Mac.cs" />
     <Compile Include="Assets\Wwise\API\Editor\WwiseMenu\Common\AkWwiseIdConverter.cs" />
     <Compile Include="Assets\Wwise\API\Editor\WwiseWindows\AkWwiseTreeWAAPIDataSource.cs" />
     <Compile Include="Assets\Wwise\API\Editor\WwiseMenu\Windows\AkWwiseMenu_Windows.cs" />
