@@ -9,7 +9,9 @@ public class ParkourControllerScript : MonoBehaviour
     public Animator animator;
     public PlayerScript playerScript;
 
+    [SerializeField] NewParkourAction jumpingAction;
     [SerializeField] NewParkourAction jumpDownParkourAction;
+
 
     [Header("Parkour Action Area")]
     public List<NewParkourAction> newParkourAction;
@@ -33,6 +35,15 @@ public class ParkourControllerScript : MonoBehaviour
                 }
             }
 
+        }
+
+        if(Input.GetButton("Jump") && !playerScript.playerInAction && !playerScript.playerHanging)
+        {
+            if(jumpDownParkourAction.maximumH <= 5)
+            {
+                playerScript.playerOnLedge = false;
+                StartCoroutine(PerformParkourAction(jumpingAction));
+            }
         }
 
         if(playerScript.playerOnLedge && !playerScript.playerInAction && Input.GetButtonDown("Jump"))

@@ -11,8 +11,8 @@ GameObject:
   - component: {fileID: 4000010507042020}
   - component: {fileID: 33000013731957406}
   - component: {fileID: 23000013943122684}
-  - component: {fileID: -7548846077943970146}
-  m_Layer: 0
+  - component: {fileID: 6223998171089658296}
+  m_Layer: 3
   m_Name: Oil_tank_v2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -30,7 +30,8 @@ Transform:
   m_LocalPosition: {x: -0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 4749831931297444666}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -84,8 +85,8 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &-7548846077943970146
-BoxCollider:
+--- !u!64 &6223998171089658296
+MeshCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -94,6 +95,133 @@ BoxCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300002, guid: 7e189a73bb9572344b1bf8d0bddfdaeb, type: 3}
+--- !u!1001 &208849429188587174
+PrefabInstance:
+  m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Size: {x: 1.7406738, y: 5.1842904, z: 1.7142303}
-  m_Center: {x: -0.000001847744, y: -0.013386011, z: -0.0000011026859}
+  m_Modification:
+    m_TransformParent: {fileID: 4000010507042020}
+    m_Modifications:
+    - target: {fileID: 4832135397349694876, guid: e502dc605c43efb48a1c0c682d1ab5d2,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4832135397349694876, guid: e502dc605c43efb48a1c0c682d1ab5d2,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.7886311
+      objectReference: {fileID: 0}
+    - target: {fileID: 4832135397349694876, guid: e502dc605c43efb48a1c0c682d1ab5d2,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.04269387
+      objectReference: {fileID: 0}
+    - target: {fileID: 4832135397349694876, guid: e502dc605c43efb48a1c0c682d1ab5d2,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1.7886311
+      objectReference: {fileID: 0}
+    - target: {fileID: 4832135397349694876, guid: e502dc605c43efb48a1c0c682d1ab5d2,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.004
+      objectReference: {fileID: 0}
+    - target: {fileID: 4832135397349694876, guid: e502dc605c43efb48a1c0c682d1ab5d2,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2.546
+      objectReference: {fileID: 0}
+    - target: {fileID: 4832135397349694876, guid: e502dc605c43efb48a1c0c682d1ab5d2,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.003
+      objectReference: {fileID: 0}
+    - target: {fileID: 4832135397349694876, guid: e502dc605c43efb48a1c0c682d1ab5d2,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4832135397349694876, guid: e502dc605c43efb48a1c0c682d1ab5d2,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4832135397349694876, guid: e502dc605c43efb48a1c0c682d1ab5d2,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4832135397349694876, guid: e502dc605c43efb48a1c0c682d1ab5d2,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4832135397349694876, guid: e502dc605c43efb48a1c0c682d1ab5d2,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4832135397349694876, guid: e502dc605c43efb48a1c0c682d1ab5d2,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4832135397349694876, guid: e502dc605c43efb48a1c0c682d1ab5d2,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4832135397349694877, guid: e502dc605c43efb48a1c0c682d1ab5d2,
+        type: 3}
+      propertyPath: m_Name
+      value: Ledge 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4832135397349694878, guid: e502dc605c43efb48a1c0c682d1ab5d2,
+        type: 3}
+      propertyPath: MountPoint
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4832135397349694880, guid: e502dc605c43efb48a1c0c682d1ab5d2,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4832135397349694881, guid: e502dc605c43efb48a1c0c682d1ab5d2,
+        type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
+    m_RemovedComponents:
+    - {fileID: 4832135397349694879, guid: e502dc605c43efb48a1c0c682d1ab5d2, type: 3}
+  m_SourcePrefab: {fileID: 100100000, guid: e502dc605c43efb48a1c0c682d1ab5d2, type: 3}
+--- !u!4 &4749831931297444666 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4832135397349694876, guid: e502dc605c43efb48a1c0c682d1ab5d2,
+    type: 3}
+  m_PrefabInstance: {fileID: 208849429188587174}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &4749831931297444667 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4832135397349694877, guid: e502dc605c43efb48a1c0c682d1ab5d2,
+    type: 3}
+  m_PrefabInstance: {fileID: 208849429188587174}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &4861705251275343658
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4749831931297444667}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}

@@ -12,9 +12,9 @@ GameObject:
   - component: {fileID: 33000011294195846}
   - component: {fileID: 23000011728890794}
   - component: {fileID: 65000010744027072}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Pipes_set_v1_H_set_v3
-  m_TagString: Untagged
+  m_TagString: Barrier
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
