@@ -165,8 +165,8 @@ MonoBehaviour:
         guid: c7e8ead1db6cb14d921aeff509e3b454
       Path: Events\Default Work Unit\Breathing
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 0.6292292
+      minDuration: 0.6292292
     - name: Enter_Room
       guid: 32bc09ee770b574fadc311a61a247b58
       id: 2409810141
@@ -185,8 +185,8 @@ MonoBehaviour:
         guid: 32bc09ee770b574fadc311a61a247b58
       Path: Events\Default Work Unit\Maps\Enter_Room
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 0.6292292
+      minDuration: 0.6292292
     - name: Foot
       guid: 24b54a8f09affd4abafd80787f953995
       id: 3031504797
@@ -205,8 +205,8 @@ MonoBehaviour:
         guid: 24b54a8f09affd4abafd80787f953995
       Path: Events\Default Work Unit\Footsteps\Foot
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 0.6077551
+      minDuration: 0.6077551
     - name: Footsteps
       guid: 21a7f5b958d85942b7c79dc54fa72baf
       id: 2385628198
@@ -242,8 +242,8 @@ MonoBehaviour:
         guid: 4eb356d8fd0b3e47ad8a0757028d6703
       Path: Events\Default Work Unit\Main\Jump
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 0.17770974
+      minDuration: 0.17770974
     - name: Land
       guid: bfce12879b63a548bfd918fc9f06beb5
       id: 674522502
@@ -262,8 +262,8 @@ MonoBehaviour:
         guid: bfce12879b63a548bfd918fc9f06beb5
       Path: Events\Default Work Unit\Main\Land
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 0.36453515
+      minDuration: 0.36453515
     - name: Main
       guid: dce727c249614a439d4b5d961ecbecfc
       id: 3161908922
@@ -336,8 +336,8 @@ MonoBehaviour:
         guid: 23c36dea75547d4f87a62828a884c58c
       Path: Events\Default Work Unit\Footsteps\Play_Foot_Dirt
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 0.8593651
+      minDuration: 0.49634922
   RtpcWwu:
   - PhysicalPath: Game Parameters\Default Work Unit.wwu
     PathAndIcons:
