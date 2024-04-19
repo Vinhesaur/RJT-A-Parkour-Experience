@@ -47,7 +47,7 @@
 								<Action Name="" ID="{B2CA185A-D2C8-4D75-B365-93F3139848D2}" ShortID="685943583">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="Cubetrack" ID="{B06C909E-EFCA-4A3A-A1F0-19B4CA233B93}" WorkUnitID="{33CE4FE8-490B-4CAB-B6F2-5568092B0D7D}"/>
+											<ObjectRef Name="Beat Mekanik - Strut" ID="{0FFA9A1D-0903-42FB-8BF3-05AC8574AD1F}" WorkUnitID="{8F1AFC14-BBC2-468B-9BAD-62E41B5533BA}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -60,7 +60,7 @@
 						<Action Name="" ID="{801321FD-44DD-4B7C-AF0E-5FD9DE537B33}" ShortID="347434895">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Staff_Swing-01" ID="{FD1782FB-BD8C-4F5B-A13C-F2D9E9FD84DA}" WorkUnitID="{33CE4FE8-490B-4CAB-B6F2-5568092B0D7D}"/>
+									<ObjectRef Name="43343114_man-panting-01" ID="{3053ADDC-5383-4ADB-A1C2-6D6AB15CD175}" WorkUnitID="{33CE4FE8-490B-4CAB-B6F2-5568092B0D7D}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

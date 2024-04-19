@@ -5,9 +5,9 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
-    path: Assets/Template Files/Scenes/Playground.unity
-    guid: e9017d5f96b9f09489b4b37e1d6eb914
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
   - enabled: 1
     path: Assets/Vinh/Scenes/UI Scenes/Splash Scene.unity
     guid: 88e105958e2fdc548a62cf58fb8d38b2
@@ -32,6 +32,12 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Vinh/Scenes/UI Scenes/Settings_FromHome.unity
     guid: d35046f51465e9941a524147f87c4ac1
+  - enabled: 1
+    path: Assets/Nick/Main Scene.unity
+    guid: 144a55394dccdbb4db62c44362bc31a1
+  - enabled: 1
+    path: Assets/Nick/Final Scene.unity
+    guid: 5a71b6a0106eec44ebc3850a43248563
   m_configObjects:
     com.unity.input.settings: {fileID: 11400000, guid: 05710c8180e0bfe4a966ba19275ad7c5,
       type: 2}

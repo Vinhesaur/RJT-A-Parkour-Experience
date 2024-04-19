@@ -1223,6 +1223,16 @@
 							<PropertyList>
 								<Property Name="Color" Type="int16" Value="10"/>
 								<Property Name="OverrideColor" Type="bool" Value="True"/>
+								<Property Name="Pitch" Type="int32">
+									<ValueList>
+										<Value>510</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-20</Value>
+									</ValueList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -1234,6 +1244,9 @@
 							</ReferenceList>
 							<ChildrenList>
 								<AudioFileSource Name="pain1" ID="{B99BDB45-BEFB-4446-AB84-49E542C0E5BE}">
+									<PropertyList>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+									</PropertyList>
 									<Language>SFX</Language>
 									<AudioFile>WwiseProject Lesson 7\Originals\SFX\pain1.wav</AudioFile>
 									<MediaIDList>
@@ -1273,7 +1286,7 @@
 					<PropertyList>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
-								<Value>-10</Value>
+								<Value>-20</Value>
 							</ValueList>
 						</Property>
 					</PropertyList>
@@ -1354,6 +1367,40 @@
 						</Sound>
 					</ChildrenList>
 				</RandomSequenceContainer>
+				<Sound Name="43343114_man-panting-01" ID="{3053ADDC-5383-4ADB-A1C2-6D6AB15CD175}" ShortID="195576266">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-40</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3BD9D82A-3DDD-4235-A0F7-8975661CAF78}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0AE93B8B-4E4D-405D-9432-1CCE75EE2F3F}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="43343114_man-panting-01" ID="{0115C340-6724-470B-A268-D54123572F50}">
+							<PropertyList>
+								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+								<Property Name="TrimBegin" Type="Real64" Value="1.01298701298701"/>
+								<Property Name="TrimEnd" Type="Real64" Value="1.3961038961039"/>
+							</PropertyList>
+							<Language>SFX</Language>
+							<AudioFile>43343114_man-panting-01.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="969788285"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="43343114_man-panting-01" ID="{0115C340-6724-470B-A268-D54123572F50}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

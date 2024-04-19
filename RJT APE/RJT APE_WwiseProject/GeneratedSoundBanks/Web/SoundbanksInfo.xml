@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Web" BasePlatform="Web" SchemaVersion="16" SoundBankVersion="150">
+	<RootPaths>
+		<ProjectRoot>../..</ProjectRoot>
+		<SourceFilesRoot>../../.cache/Web</SourceFilesRoot>
+		<SoundBanksRoot>.</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>.</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{CF0978CF-DBAE-DEE9-6913-DDED13140C93}">
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+			<Plugins>
+				<AudioDevices>
+					<Plugin Id="2317455096" Name="No_Output" LibName="No Output" LibId="11862023"/>
+					<Plugin Id="3859886410" Name="System" LibName="System" LibId="11403271"/>
+				</AudioDevices>
+			</Plugins>
+			<Busses>
+				<Bus Id="393239870" Name="SFX"/>
+				<Bus Id="1229948536" Name="Environment"/>
+				<Bus Id="3803692087" Name="Master Audio Bus"/>
+				<Bus Id="3991942870" Name="Music"/>
+			</Busses>
+			<GameParameters>
+				<GameParameter Id="988953028" Name="SFXVolume"/>
+				<GameParameter Id="2346531308" Name="MusicVolume"/>
+			</GameParameters>
+			<SwitchGroups>
+				<SwitchGroup Id="3031504797" Name="Foot">
+					<Switches/>
+				</SwitchGroup>
+				<SwitchGroup Id="3865314626" Name="Material">
+					<Switches/>
+				</SwitchGroup>
+			</SwitchGroups>
+		</SoundBank>
+		<SoundBank Id="2228651116" Type="User" Language="SFX" Hash="{FB6BAB38-5334-C4BB-68CF-D59639527363}">
+			<ShortName>Main_Soundbank</ShortName>
+			<Path>Main_Soundbank.bnk</Path>
+			<Media>
+				<File Id="236005434" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>WwiseProject Lesson 7\Originals\SFX\Footsteps\Tile\FS_Tile_02.wav</ShortName>
+					<CachePath>SFX/WwiseProject Lesson 7/Originals/SFX/Footsteps/Tile/FS_Tile_02_818F3B66.wem</CachePath>
+				</File>
+				<File Id="413315225" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Beat Mekanik - Strut.wav</ShortName>
+					<CachePath>SFX/Beat Mekanik - Strut_FBC78EF0.wem</CachePath>
+				</File>
+				<File Id="479574771" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>WwiseProject Lesson 7\Originals\SFX\Footsteps\Dirt\FS_Dirt_02.wav</ShortName>
+					<CachePath>SFX/WwiseProject Lesson 7/Originals/SFX/Footsteps/Dirt/FS_Dirt_02_818F3B66.wem</CachePath>
+				</File>
+				<File Id="513979949" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>WwiseProject Lesson 7\Originals\SFX\jump_2.wav</ShortName>
+					<CachePath>SFX/WwiseProject Lesson 7/Originals/SFX/jump_2_818F3B66.wem</CachePath>
+				</File>
+				<File Id="528969655" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>WwiseProject Lesson 7\Originals\SFX\Staff_Swing-01.wav</ShortName>
+					<CachePath>SFX/WwiseProject Lesson 7/Originals/SFX/Staff_Swing-01_818F3B66.wem</CachePath>
+				</File>
+				<File Id="720792073" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>WwiseProject Lesson 7\Originals\SFX\Footsteps\Dirt\FS_Dirt_03.wav</ShortName>
+					<CachePath>SFX/WwiseProject Lesson 7/Originals/SFX/Footsteps/Dirt/FS_Dirt_03_818F3B66.wem</CachePath>
+				</File>
+				<File Id="820302838" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>WwiseProject Lesson 7\Originals\SFX\Footsteps\Dirt\FS_Dirt_01.wav</ShortName>
+					<CachePath>SFX/WwiseProject Lesson 7/Originals/SFX/Footsteps/Dirt/FS_Dirt_01_818F3B66.wem</CachePath>
+				</File>
+				<File Id="932509159" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>WwiseProject Lesson 7\Originals\SFX\pain1.wav</ShortName>
+					<CachePath>SFX/WwiseProject Lesson 7/Originals/SFX/pain1_818F3B66.wem</CachePath>
+				</File>
+				<File Id="969788285" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>43343114_man-panting-01.wav</ShortName>
+					<CachePath>SFX/43343114_man-panting-01_F247ECDA.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="238653005" Name="Breathing" DurationType="OneShot" DurationMin="0.38311687" DurationMax="0.38311687">
+					<MediaRefs>
+						<MediaRef Id="969788285"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2409810141" Name="Enter_Room" DurationType="OneShot" DurationMin="0.6292292" DurationMax="0.6292292">
+					<MediaRefs>
+						<MediaRef Id="528969655"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3031504797" Name="Foot" DurationType="OneShot" DurationMin="0.6077551" DurationMax="0.6077551">
+					<MediaRefs>
+						<MediaRef Id="236005434"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3833651337" Name="Jump" DurationType="OneShot" DurationMin="0.17770974" DurationMax="0.17770974">
+					<MediaRefs>
+						<MediaRef Id="513979949"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="674522502" Name="Land" DurationType="OneShot" DurationMin="0.2715199" DurationMax="0.2715199">
+					<MediaRefs>
+						<MediaRef Id="932509159"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3991942870" Name="Music" DurationType="OneShot" DurationMin="135.95245" DurationMax="135.95245">
+					<MediaRefs>
+						<MediaRef Id="413315225"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3625717502" Name="Play_Foot_Dirt" DurationType="OneShot" DurationMin="0.49634922" DurationMax="0.8593651">
+					<MediaRefs>
+						<MediaRef Id="479574771"/>
+						<MediaRef Id="720792073"/>
+						<MediaRef Id="820302838"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{3E1D7BEF-2024-E4AF-1EF5-52426E3A74E3}</FileHash>
+</SoundBanksInfo>
