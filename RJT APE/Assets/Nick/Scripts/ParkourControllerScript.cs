@@ -15,13 +15,14 @@ public class ParkourControllerScript : MonoBehaviour
 
     [Header("Parkour Action Area")]
     public List<NewParkourAction> newParkourAction;
-
+    [Header("Wwise Events")]
+    public AK.Wwise.Event Grunt;
     void Update()
     {
         if(Input.GetButton("Jump") && !playerScript.playerInAction && !playerScript.playerHanging) 
         {
             var hitData = environmentChecker.CheckObstacle();
-
+            
             if (hitData.hitFound)
             {
                 foreach (var action in newParkourAction)
@@ -29,6 +30,7 @@ public class ParkourControllerScript : MonoBehaviour
                     if (action.CheckIfAvailable(hitData, transform))
                     {
                         //perform parkour acction
+                        
                         StartCoroutine(PerformParkourAction(action));
                         break;
                     }
@@ -39,10 +41,11 @@ public class ParkourControllerScript : MonoBehaviour
 
         if(playerScript.playerOnLedge && !playerScript.playerInAction && Input.GetButtonDown("Jump"))
         {
-            if(playerScript.LedgeInfo.angle <= 50)
+            if (playerScript.LedgeInfo.angle <= 50)
             {
                 playerScript.playerOnLedge = false;
                 StartCoroutine(PerformParkourAction(jumpDownParkourAction));
+                
             }
         }
         
@@ -51,7 +54,7 @@ public class ParkourControllerScript : MonoBehaviour
     IEnumerator PerformParkourAction(NewParkourAction action)
     {
         playerScript.SetControl(false);
-
+        Grunt.Post(gameObject);
         CompareTargetParameter compareTargetParameter = null;
         if(action.AllowTargetMatching)
         {
@@ -64,6 +67,7 @@ public class ParkourControllerScript : MonoBehaviour
                 endTime = action.CompareEndTime
 
             };
+            
         }
 
         yield return playerScript.PerformAction(action.AnimationName, compareTargetParameter, action.RequiredRotation, action.LookAtObstacle, action.ParkourActionDelay);

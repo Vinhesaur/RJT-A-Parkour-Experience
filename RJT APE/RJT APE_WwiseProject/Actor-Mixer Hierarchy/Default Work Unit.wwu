@@ -1223,6 +1223,16 @@
 							<PropertyList>
 								<Property Name="Color" Type="int16" Value="10"/>
 								<Property Name="OverrideColor" Type="bool" Value="True"/>
+								<Property Name="Pitch" Type="int32">
+									<ValueList>
+										<Value>510</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-20</Value>
+									</ValueList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -1234,6 +1244,9 @@
 							</ReferenceList>
 							<ChildrenList>
 								<AudioFileSource Name="pain1" ID="{B99BDB45-BEFB-4446-AB84-49E542C0E5BE}">
+									<PropertyList>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+									</PropertyList>
 									<Language>SFX</Language>
 									<AudioFile>WwiseProject Lesson 7\Originals\SFX\pain1.wav</AudioFile>
 									<MediaIDList>
@@ -1273,7 +1286,7 @@
 					<PropertyList>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
-								<Value>-10</Value>
+								<Value>-20</Value>
 							</ValueList>
 						</Property>
 					</PropertyList>

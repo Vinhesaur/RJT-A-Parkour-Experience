@@ -39,6 +39,11 @@ public class PlayerScript: MonoBehaviour
     public AK.Wwise.Event myFootstep;
     private bool footstepplay = false;
     private float lastFootstepTime = 0;
+
+    
+    public AK.Wwise.Event Music;
+    
+   
     private void Update()
     {
         if (!playerControl)
@@ -64,7 +69,8 @@ public class PlayerScript: MonoBehaviour
             {
                 LedgeInfo = ledgeInfo;
                 playerLedgeMovement();
-                Debug.Log("Player is on Ledge");
+                
+                //Debug.Log("Player is on Ledge");
             }
             
             animator.SetFloat("movementValue", velocity.magnitude / movementSpeed, 0f, Time.deltaTime);
@@ -72,7 +78,7 @@ public class PlayerScript: MonoBehaviour
         else
         {
             fallingSpeed += Physics.gravity.y * Time.deltaTime;
-
+            
             velocity = transform.forward * movementSpeed / 2;
         }
 
@@ -82,6 +88,10 @@ public class PlayerScript: MonoBehaviour
         SurfaceCheck();
         animator.SetBool("onSurface", onSurface);
         //Debug.Log("Player on Surface" + onSurface);
+        if (Input.GetKey("escape"))
+        {
+            Application.Quit();
+        }
     }
 
     void PlayerMovement()
@@ -113,11 +123,12 @@ public class PlayerScript: MonoBehaviour
             {
                 if (movementSpeed > 1)
                 {
-                    if (Time.time - lastFootstepTime > 750 / movementSpeed * Time.deltaTime)
+                    if (Time.time - lastFootstepTime > 700 / movementSpeed * Time.deltaTime)
                     {
                         footstepplay = false;
                     }
                 }
+                
              
             }
         }

@@ -37,7 +37,7 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="2228651116" Type="User" Language="SFX" Hash="{3EE4B15B-B89F-259C-0F58-A4F406A0A136}">
+		<SoundBank Id="2228651116" Type="User" Language="SFX" Hash="{F108F336-A027-7817-3DF3-1047B42281DA}">
 			<ShortName>Main_Soundbank</ShortName>
 			<Path>Main_Soundbank.bnk</Path>
 			<Media>
@@ -95,7 +95,7 @@
 						<MediaRef Id="513979949"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="674522502" Name="Land" DurationType="OneShot" DurationMin="0.36453515" DurationMax="0.36453515">
+				<Event Id="674522502" Name="Land" DurationType="OneShot" DurationMin="0.2715199" DurationMax="0.2715199">
 					<MediaRefs>
 						<MediaRef Id="932509159"/>
 					</MediaRefs>
@@ -115,5 +115,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{67906B1A-3363-2797-581C-C09D44526572}</FileHash>
+	<FileHash>{E2EEB906-2195-CC93-54D2-D43F6D2ED820}</FileHash>
 </SoundBanksInfo>

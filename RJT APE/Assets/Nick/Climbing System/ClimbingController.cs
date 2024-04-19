@@ -12,7 +12,8 @@ public class ClimbingController : MonoBehaviour
     public float InOutValue;
     public float UpDownValue;
     public float LeftRigthValue;
-
+    [Header("Wwise Events")]
+    public AK.Wwise.Event Grunt;
     void Awake()
     {
         ec =GetComponent<EnvironmentChecker>();
@@ -22,10 +23,13 @@ public class ClimbingController : MonoBehaviour
     {
         if(!playerScript.playerHanging)
         {
-            if(Input.GetButton("Jump") && !playerScript.playerInAction)
+            
+            if (Input.GetButton("Jump") && !playerScript.playerInAction)
             {
-             if(ec.CheckClimbing(transform.forward, out RaycastHit climbInfo))
+                
+                if (ec.CheckClimbing(transform.forward, out RaycastHit climbInfo))
                 {
+                    Grunt.Post(gameObject);
                     currentClimbPoint = climbInfo.transform.GetComponent<ClimbingPoint>();
 
                     playerScript.SetControl(false);
@@ -188,6 +192,7 @@ public class ClimbingController : MonoBehaviour
 
     IEnumerator ClimbToTop()
     {
+        
         playerScript.playerHanging = false;
         yield return playerScript.PerformAction("ClimbToTop");
         
