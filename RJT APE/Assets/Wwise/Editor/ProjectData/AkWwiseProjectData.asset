@@ -148,7 +148,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: dc2a77ad607dfc49941e5098d177735f
     GuidInternal: 
-    m_lastTime: -8584881207091666619
+    m_lastTime: -8584880567076202210
     List:
     - name: Breathing
       guid: c7e8ead1db6cb14d921aeff509e3b454
@@ -165,8 +165,8 @@ MonoBehaviour:
         guid: c7e8ead1db6cb14d921aeff509e3b454
       Path: Events\Default Work Unit\Breathing
       maxAttenuation: 0
-      maxDuration: 0.6292292
-      minDuration: 0.6292292
+      maxDuration: 0.38311687
+      minDuration: 0.38311687
     - name: Enter_Room
       guid: 32bc09ee770b574fadc311a61a247b58
       id: 2409810141
@@ -316,8 +316,8 @@ MonoBehaviour:
         guid: 48fa3d3b50e64845a64b9886bcbb39ee
       Path: Events\Default Work Unit\Maps\Music
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 135.95245
+      minDuration: 135.95245
     - name: Play_Foot_Dirt
       guid: 23c36dea75547d4f87a62828a884c58c
       id: 3625717502
@@ -423,7 +423,7 @@ MonoBehaviour:
     m_lastTime: -8584881207089970686
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 0100000005000000060000000700000008000000090000000a0000000c00000017000000
+  ExpandedWaapiItemIds: 01000000030000000400000005000000060000000700000008000000090000000a0000000b0000000c000000890100008a010000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0

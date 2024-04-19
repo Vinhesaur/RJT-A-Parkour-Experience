@@ -37,17 +37,17 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="2228651116" Type="User" Language="SFX" Hash="{F108F336-A027-7817-3DF3-1047B42281DA}">
+		<SoundBank Id="2228651116" Type="User" Language="SFX" Hash="{E85D775F-70B2-86BE-723C-F15B5F5DF82B}">
 			<ShortName>Main_Soundbank</ShortName>
 			<Path>Main_Soundbank.bnk</Path>
 			<Media>
-				<File Id="122221544" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>WwiseProject Lesson 7\Originals\SFX\Cubetrack.wav</ShortName>
-					<CachePath>SFX/WwiseProject Lesson 7/Originals/SFX/Cubetrack_B8E429A5.wem</CachePath>
-				</File>
 				<File Id="236005434" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>WwiseProject Lesson 7\Originals\SFX\Footsteps\Tile\FS_Tile_02.wav</ShortName>
 					<CachePath>SFX/WwiseProject Lesson 7/Originals/SFX/Footsteps/Tile/FS_Tile_02_818F3B66.wem</CachePath>
+				</File>
+				<File Id="413315225" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Beat Mekanik - Strut.wav</ShortName>
+					<CachePath>SFX/Beat Mekanik - Strut_FBC78EF0.wem</CachePath>
 				</File>
 				<File Id="479574771" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>WwiseProject Lesson 7\Originals\SFX\Footsteps\Dirt\FS_Dirt_02.wav</ShortName>
@@ -73,11 +73,15 @@
 					<ShortName>WwiseProject Lesson 7\Originals\SFX\pain1.wav</ShortName>
 					<CachePath>SFX/WwiseProject Lesson 7/Originals/SFX/pain1_818F3B66.wem</CachePath>
 				</File>
+				<File Id="969788285" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>43343114_man-panting-01.wav</ShortName>
+					<CachePath>SFX/43343114_man-panting-01_4C7611E3.wem</CachePath>
+				</File>
 			</Media>
 			<Events>
-				<Event Id="238653005" Name="Breathing" DurationType="OneShot" DurationMin="0.6292292" DurationMax="0.6292292">
+				<Event Id="238653005" Name="Breathing" DurationType="OneShot" DurationMin="0.38311687" DurationMax="0.38311687">
 					<MediaRefs>
-						<MediaRef Id="528969655"/>
+						<MediaRef Id="969788285"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="2409810141" Name="Enter_Room" DurationType="OneShot" DurationMin="0.6292292" DurationMax="0.6292292">
@@ -100,9 +104,9 @@
 						<MediaRef Id="932509159"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="3991942870" Name="Music" DurationType="Infinite">
+				<Event Id="3991942870" Name="Music" DurationType="OneShot" DurationMin="135.95245" DurationMax="135.95245">
 					<MediaRefs>
-						<MediaRef Id="122221544"/>
+						<MediaRef Id="413315225"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="3625717502" Name="Play_Foot_Dirt" DurationType="OneShot" DurationMin="0.49634922" DurationMax="0.8593651">
@@ -115,5 +119,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{E70D61F8-7003-5BE3-AEFF-C3EA8BBC9A81}</FileHash>
+	<FileHash>{81FCA4B2-B0AF-B41D-329B-1C51469ACBC9}</FileHash>
 </SoundBanksInfo>

@@ -41,9 +41,9 @@ public class PlayerScript: MonoBehaviour
     private float lastFootstepTime = 0;
 
     
-    public AK.Wwise.Event Music;
     
-   
+
+
     private void Update()
     {
         if (!playerControl)
@@ -118,18 +118,21 @@ public class PlayerScript: MonoBehaviour
                 myFootstep.Post(gameObject);
                 lastFootstepTime = Time.time;
                 footstepplay = true;
+
             }
             else
             {
                 if (movementSpeed > 1)
                 {
+                   
                     if (Time.time - lastFootstepTime > 700 / movementSpeed * Time.deltaTime)
                     {
                         footstepplay = false;
                     }
+                    
+
                 }
                 
-             
             }
         }
 
