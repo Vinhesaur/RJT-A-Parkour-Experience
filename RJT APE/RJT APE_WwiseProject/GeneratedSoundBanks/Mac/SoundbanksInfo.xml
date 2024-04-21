@@ -37,7 +37,7 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="2228651116" Type="User" Language="SFX" Hash="{E85D775F-70B2-86BE-723C-F15B5F5DF82B}">
+		<SoundBank Id="2228651116" Type="User" Language="SFX" Hash="{B7CC0D23-C165-E704-3D0D-16290B26B1FE}">
 			<ShortName>Main_Soundbank</ShortName>
 			<Path>Main_Soundbank.bnk</Path>
 			<Media>
@@ -75,7 +75,7 @@
 				</File>
 				<File Id="969788285" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>43343114_man-panting-01.wav</ShortName>
-					<CachePath>SFX/43343114_man-panting-01_4C7611E3.wem</CachePath>
+					<CachePath>SFX/43343114_man-panting-01_F247ECDA.wem</CachePath>
 				</File>
 			</Media>
 			<Events>
@@ -119,5 +119,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{81FCA4B2-B0AF-B41D-329B-1C51469ACBC9}</FileHash>
+	<FileHash>{3AA47DDA-DD92-7F7D-9476-E69E25DF5701}</FileHash>
 </SoundBanksInfo>

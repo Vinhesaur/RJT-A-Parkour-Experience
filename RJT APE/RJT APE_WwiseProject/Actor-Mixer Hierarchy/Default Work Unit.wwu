@@ -3,7 +3,7 @@
 	<AudioObjects>
 		<WorkUnit Name="Default Work Unit" ID="{33CE4FE8-490B-4CAB-B6F2-5568092B0D7D}" PersistMode="Standalone">
 			<ChildrenList>
-				<Folder Name="WwiseProject Lesson 7" ID="{993F46D5-C584-40C2-BBDF-42DD5F9D6616}" ShortID="961870560">
+				<Folder Name="Project Files" ID="{993F46D5-C584-40C2-BBDF-42DD5F9D6616}" ShortID="961870560">
 					<ChildrenList>
 						<Folder Name="Originals" ID="{339D9723-E52C-42B3-8828-1B49EE8BFCE2}" ShortID="609530129">
 							<ChildrenList>

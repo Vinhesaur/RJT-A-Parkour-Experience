@@ -16,5 +16,5 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	720792073	FS_Dirt_03	V:\RJT 5.0\RJT-A-Parkour-Experience\RJT APE\RJT APE_WwiseProject\.cache\Windows\SFX\WwiseProject Lesson 7\Originals\SFX\Footsteps\Dirt\FS_Dirt_03_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps Dirt\FS_Dirt_03		75892
 	820302838	FS_Dirt_01	V:\RJT 5.0\RJT-A-Parkour-Experience\RJT APE\RJT APE_WwiseProject\.cache\Windows\SFX\WwiseProject Lesson 7\Originals\SFX\Footsteps\Dirt\FS_Dirt_01_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps Dirt\FS_Dirt_01		43874
 	932509159	pain1	V:\RJT 5.0\RJT-A-Parkour-Experience\RJT APE\RJT APE_WwiseProject\.cache\Windows\SFX\WwiseProject Lesson 7\Originals\SFX\pain1_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\RJT SFX\pain1		32248
-	969788285	43343114_man-panting-01	V:\RJT 5.0\RJT-A-Parkour-Experience\RJT APE\RJT APE_WwiseProject\.cache\Windows\SFX\43343114_man-panting-01_4C7611E3.wem		\Actor-Mixer Hierarchy\Default Work Unit\43343114_man-panting-01		73656
+	969788285	43343114_man-panting-01	V:\RJT 5.0\RJT-A-Parkour-Experience\RJT APE\RJT APE_WwiseProject\.cache\Windows\SFX\43343114_man-panting-01_F247ECDA.wem		\Actor-Mixer Hierarchy\Default Work Unit\43343114_man-panting-01		73656
 
