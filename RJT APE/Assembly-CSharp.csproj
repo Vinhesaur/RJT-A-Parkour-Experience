@@ -94,6 +94,7 @@
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark02.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark03.cs" />
     <Compile Include="Assets\Nick\Scripts\CameraController.cs" />
+    <Compile Include="Assets\Vinh\Scripts\UI\AppQuit.cs" />
     <Compile Include="Assets\Nick\Scripts\ControlFallingMovement.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_FrameRateCounter.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextSelector_B.cs" />
@@ -101,7 +102,6 @@
     <Compile Include="Assets\Nick\Scripts\ParkourControllerScript.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexZoom.cs" />
     <Compile Include="Assets\Nick\Scripts\EnvironmentChecker.cs" />
-    <Compile Include="Assets\Vinh\Scripts\UI\AppQuit.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />

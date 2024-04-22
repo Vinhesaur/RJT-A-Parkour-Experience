@@ -370,8 +370,8 @@
 "Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/WarpTextExample.cs"
 "Assets/Vinh/Scripts/MainCameraController.cs"
+"Assets/Vinh/Scripts/UI/AppQuit.cs"
 "Assets/Vinh/Scripts/UI/ChangeScene.cs"
-"Assets/Vinh/Scripts/UI/TabBar.cs"
 -langversion:9.0
 
 /deterministic
